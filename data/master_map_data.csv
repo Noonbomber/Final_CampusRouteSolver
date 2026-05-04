@@ -1,0 +1,979 @@
+feature_type,feature_id,feature_name,part_id,point_order,point_kind,longitude,latitude
+building,biosystems_lab,Biosystems and Agricultural Engineering Lab,,0,point,-97.07519933911327,36.126354182726494
+building,greenhouse_learning,Greenhouse Learning Center,,0,point,-97.07422357136227,36.125561167677766
+building,iba_hall,IBA Hall,,0,point,-97.0749644320621,36.12493842631828
+building,uhs,University Health Services,,0,point,-97.0739585480225,36.12496761742986
+building,kerr_hall,Kerr Hall,,0,point,-97.07388508850764,36.12434012202967
+building,kerr_drummond,Kerr-Drummond Cafeteria,,0,point,-97.07379139338751,36.123914864327155
+building,drummond_hall,Drummond Hall,,0,point,-97.07387616516287,36.12346798086927
+building,central_market,Central Market Place,,0,point,-97.0747060362268,36.12347518868716
+building,north_classroom,North Classroom,,0,point,-97.07133836590928,36.126341505206604
+building,animal_sciences,Animal Sciences,,0,point,-97.07219969176354,36.12592797068453
+building,ag_hall,Agricultural Hall,,0,point,-97.07115766817762,36.12531009739823
+building,noble,Noble Research Center,,0,point,-97.06970003980886,36.124444093583605
+building,bellmon,Henry Bellmon Research Center,,0,point,-97.07146485432145,36.1240694709957
+building,life_science_west,Life Science West,,0,point,-97.07147893337651,36.123044240101045
+building,life_science_east,Life Sciences East,,0,point,-97.07065878710593,36.12320986713961
+building,library,Edmon Low Library,,0,point,-97.06969506587038,36.12303958168953
+building,engineering_south,Engineering South,,0,point,-97.06861690273814,36.12320013655241
+building,classroom_building,Classroom Building,,0,point,-97.06873134463484,36.12196434217538
+building,whitehurst,Whitehurst,,0,point,-97.07071299642543,36.121974072915755
+building,math_sciences,Math Sciences,,0,point,-97.07148397341385,36.122129764597624
+building,willard,Willard,,0,point,-97.07115907443067,36.12133880620794
+building,student_union,Student Union,,0,point,-97.06827326473093,36.12130528893705
+building,psychology,Psychology,,0,point,-97.07262249349247,36.120921747625175
+building,social_sciences,Social Sciences and Humanities,,0,point,-97.0722164690357,36.120172635985206
+building,south_hall,Stout Hall,,0,point,-97.07354604740694,36.12019426034454
+building,gab,General Academic Building,,0,point,-97.0672888352007,36.12212547632304
+building,business,Business Building,,0,point,-97.06698797347748,36.12257211514646
+building,architecture,Donald W. Reynolds School of Architecture,,0,point,-97.06652471060497,36.12384462293916
+building,thatcher,Thatcher Hall,,0,point,-97.06545272571434,36.12296429648587
+building,gallagher_iba,Gallagher-Iba Arena,,0,point,-97.0651891960954,36.125725746462706
+building,boone_pickens,Boone Pickens Stadium,,0,point,-97.06685345263811,36.12569652336948
+building,wrestling_hof,National Wrestling Hall of Fame,,0,point,-97.06326927115624,36.126498693329324
+building,bennett_chapel,Bennett Memorial Chapel,,0,point,-97.06778351864018,36.1200362066331
+building,gundersen,Gundersen,,0,point,-97.06730660318769,36.12143656954946
+building,conoco_phillips,ConocoPhillips OSU Alumni Center,,0,point,-97.06731640643315,36.12081890371775
+building,seretean,Seretean Center for the Performing Arts,,0,point,-97.06562534659194,36.12111189965398
+building,campus_fire_station,Campus Fire Station,,0,point,-97.06543418330554,36.12001513898137
+poi,library_lawn,Library Lawn,,0,point,-97.06969050740152,36.122323267868396
+poi,engineering_lawn,Engineering Lawn,,0,point,-97.06873447314234,36.12286181834046
+poi,international_mall,International Mall,,0,point,-97.06969396579137,36.12390944448634
+poi,theta_pond,Theta Pond Area,,0,point,-97.07082385110049,36.11998211067011
+road,road_001,Hall of Fame,road_001,0,intersection,-97.07573548894129,36.12675284522005
+road,road_001,Hall of Fame,road_001,1,intersection,-97.07184949387302,36.1267439786227
+road,road_001,Hall of Fame,road_001,2,intersection,-97.06945642346375,36.126761711816386
+road,road_001,Hall of Fame,road_001,3,curve,-97.06674500882573,36.12696564325588
+road,road_001,Hall of Fame,road_001,4,intersection,-97.06273938754723,36.12676120898347
+road,road_002,Clevland Street,road_002,0,intersection,-97.07574171050645,36.12675974318995
+road,road_002,Clevland Street,road_002,1,intersection,-97.07574171050645,36.12465430244354
+road,road_002,Clevland Street,road_002,2,intersection,-97.07569936124929,36.12295409586347
+road,road_002,Clevland Street,road_002,3,intersection,-97.0757128037816,36.12148492715368
+road,road_002,Clevland Street,road_002,4,intersection,-97.07535433625398,36.1209716164875
+road,road_003,Farm Road,road_003,0,intersection,-97.07575353872791,36.124663430005
+road,road_003,Farm Road,road_003,1,intersection,-97.07434410958528,36.124604204420436
+road,road_003,Farm Road,road_003,2,intersection,-97.07305688528162,36.124604204420436
+road,road_003,Farm Road,road_003,3,intersection,-97.07183483689204,36.12457788192406
+road,road_004,Lincoln Street,road_004,0,intersection,-97.07306334703243,36.12673744754908
+road,road_004,Lincoln Street,road_004,1,intersection,-97.07305107560533,36.12462620281309
+road,road_005,Monroe Street,road_005,0,intersection,-97.07187301860341,36.12674735936229
+road,road_005,Monroe Street,road_005,1,intersection,-97.07186074717632,36.12455681821956
+road,road_005,Monroe Street,road_005,2,intersection,-97.07184847574919,36.12347639306504
+road,road_005,Monroe Street,road_005,3,intersection,-97.0718362043221,36.121553397749004
+road,road_005,Monroe Street,road_005,4,intersection,-97.07187301860341,36.11967000616543
+road,road_006,University Circle,road_006,0,intersection,-97.07560353244277,36.11963035533072
+road,road_006,University Circle,road_006,1,curve,-97.07561580386987,36.12076039627309
+road,road_006,University Circle,road_006,2,intersection,-97.07537037532782,36.120958647392975
+road,road_006,University Circle,road_006,3,curve,-97.07457273256611,36.12087934700509
+road,road_006,University Circle,road_006,4,intersection,-97.07447456114929,36.119660093458634
+road,road_007,University Avenue,road_007,0,intersection,-97.07560353244277,36.119610529905856
+road,road_007,University Avenue,road_007,1,intersection,-97.07448683257638,36.11965018075058
+road,road_007,University Avenue,road_007,2,intersection,-97.07186074717632,36.119660093458634
+road,road_007,University Avenue,road_007,3,intersection,-97.06690309062665,36.11970965698012
+road,road_007,University Avenue,road_007,4,intersection,-97.0651659346127,36.119729251219624
+road,road_008,Drummond Lane,road_008,0,intersection,-97.0756926394752,36.122967017433545
+road,road_008,Drummond Lane,road_008,1,intersection,-97.07303423551402,36.12299119006182
+road,road_009,West Athletic Avenue,road_009,0,intersection,-97.07301927263994,36.12347464106416
+road,road_009,West Athletic Avenue,road_009,1,intersection,-97.07184718083717,36.12345449733185
+road,road_009,West Athletic Avenue,road_009,2,intersection,-97.07051666866082,36.12348267349029
+road,road_010,Wentz Lane,road_010,0,intersection,-97.07567412254525,36.12147274211059
+road,road_010,Wentz Lane,road_010,1,curve,-97.07381233984681,36.121414053683786
+road,road_010,Wentz Lane,road_010,2,curve,-97.07381233984681,36.12130401276529
+road,road_010,Wentz Lane,road_010,3,intersection,-97.07285202979321,36.12128205869509
+road,road_011,Washington Street,road_011,0,intersection,-97.06943726701978,36.12677169624132
+road,road_011,Washington Street,road_011,1,curve,-97.06940998785035,36.12544965828136
+road,road_011,Washington Street,road_011,2,curve,-97.06899170725252,36.12492083686304
+road,road_011,Washington Street,road_011,3,curve,-97.06813273965896,36.12452226016697
+road,road_011,Washington Street,road_011,4,intersection,-97.06784946311217,36.12436725757196
+road,road_012,Hester Street,road_012,0,intersection,-97.0678586010653,36.124359876488384
+road,road_012,Hester Street,road_012,1,intersection,-97.06773066972157,36.12343723557488
+road,road_012,Hester Street,road_012,2,intersection,-97.06770325586221,36.12173954796186
+road,road_012,Hester Street,road_012,3,curve,-97.06757349128715,36.120324963511685
+road,road_012,Hester Street,road_012,4,curve,-97.06699688519161,36.11996854636806
+road,road_012,Hester Street,road_012,5,intersection,-97.06688657793855,36.119713383100994
+road,road_013,Parkinglot Thru Road,road_013,0,intersection,-97.0678670589993,36.12438780209056
+road,road_013,Parkinglot Thru Road,road_013,1,intersection,-97.06512323434002,36.124420636072486
+road,road_014,East Athletic Avenue,road_014,0,intersection,-97.06771961677886,36.12346585304005
+road,road_014,East Athletic Avenue,road_014,1,intersection,-97.06510273658392,36.12344377699445
+road,road_015,Morrill Avenue,road_015,0,intersection,-97.06769093638766,36.12172370179976
+road,road_015,Morrill Avenue,road_015,1,intersection,-97.06510958367336,36.12174029434498
+road,road_016,Knoblock Street,road_016,0,intersection,-97.06506165404735,36.12524124295701
+road,road_016,Knoblock Street,road_016,1,intersection,-97.06510958367333,36.12443377103153
+road,road_016,Knoblock Street,road_016,2,intersection,-97.06509588949449,36.123742435728516
+road,road_016,Knoblock Street,road_016,3,intersection,-97.06509588949449,36.12345483844931
+road,road_016,Knoblock Street,road_016,4,intersection,-97.06506850113678,36.1221772301075
+road,road_016,Knoblock Street,road_016,5,intersection,-97.06508219531564,36.12176241773319
+road,road_016,Knoblock Street,road_016,6,intersection,-97.06506898296897,36.120625349444715
+road,road_016,Knoblock Street,road_016,7,intersection,-97.06514506174038,36.11973629920909
+road,road_017,University Thru Road,road_017,0,intersection,-97.06514043361514,36.11972475582935
+road,road_017,University Thru Road,road_017,1,intersection,-97.06406817941074,36.11971728899274
+road,road_018,South West Street,road_018,0,intersection,-97.06408664380245,36.12063457439818
+road,road_018,South West Street,road_018,1,intersection,-97.06407741160659,36.11973966193501
+road,road_019,Maple Avenue,road_019,0,intersection,-97.06508372095492,36.12063457439818
+road,road_019,Maple Avenue,road_019,1,intersection,-97.06410510819418,36.120627116836474
+road,road_019,Maple Avenue,road_019,2,intersection,-97.06393892866875,36.12064948951949
+road,road_019,Maple Avenue,road_019,3,intersection,-97.06273874320748,36.12064948951949
+road,road_020,Elm Avenue,road_020,0,intersection,-97.06505602436737,36.122170817007955
+road,road_020,Elm Avenue,road_020,1,intersection,-97.06391096380398,36.122178216497346
+road,road_020,Elm Avenue,road_020,2,intersection,-97.0627842242096,36.122185615986055
+road,road_021,Miller Avenue,road_021,0,intersection,-97.065098974815,36.123737581023946
+road,road_021,Miller Avenue,road_021,1,intersection,-97.063964472542,36.12372280054924
+road,road_021,Miller Avenue,road_021,2,intersection,-97.06273847815021,36.12375236149587
+road,road_022,Matthews Avenue,road_022,0,intersection,-97.06507152717936,36.12524517482533
+road,road_022,Matthews Avenue,road_022,1,intersection,-97.0639095772707,36.125267345106394
+road,road_022,Matthews Avenue,road_022,2,intersection,-97.06272932893832,36.12525256491972
+road,road_023,Duck Street,road_023,0,intersection,-97.06272686262645,36.12678490907821
+road,road_023,Duck Street,road_023,1,intersection,-97.06271466558337,36.125264635736436
+road,road_023,Duck Street,road_023,2,intersection,-97.06271466558337,36.123760532297794
+road,road_023,Duck Street,road_023,3,intersection,-97.0627644683819,36.12219162519882
+road,road_023,Duck Street,road_023,4,intersection,-97.06275200234191,36.12064089323531
+road,road_024,North West Street,road_024,0,intersection,-97.0639238101009,36.12525272046109
+road,road_024,North West Street,road_024,1,intersection,-97.0639238101009,36.123732257141754
+road,road_024,North West Street,road_024,2,intersection,-97.06391134406091,36.12218155560954
+road,road_024,North West Street,road_024,3,intersection,-97.06391134406091,36.12064089323531
+road_intersection,road_intersection_001,Hall of Fame;Clevland Street,,0,point,-97.07573859972386,36.126756294205066
+road_intersection,road_intersection_002,Hall of Fame;Lincoln Street,,0,point,-97.07306334703243,36.12673744754908
+road_intersection,road_intersection_003,Hall of Fame;Monroe Street,,0,point,-97.0718651708463,36.12674512341452
+road_intersection,road_intersection_004,Hall of Fame;Washington Street,,0,point,-97.06944359385437,36.12676552463745
+road_intersection,road_intersection_005,Hall of Fame;Duck Street,,0,point,-97.06273312508682,36.12677305903173
+road_intersection,road_intersection_006,Clevland Street;Farm Road,,0,point,-97.07574762461718,36.1246588662244
+road_intersection,road_intersection_007,Clevland Street;University Circle,,0,point,-97.0753623557909,36.12096513194051
+road_intersection,road_intersection_008,Clevland Street;Drummond Lane,,0,point,-97.07569600036224,36.12296055664876
+road_intersection,road_intersection_009,Clevland Street;Wentz Lane,,0,point,-97.07569346316342,36.12147883463238
+road_intersection,road_intersection_010,Farm Road;Lincoln Street,,0,point,-97.07305398044349,36.12461520361754
+road_intersection,road_intersection_011,Farm Road;Monroe Street,,0,point,-97.07185215082717,36.124571047632344
+road_intersection,road_intersection_012,Monroe Street;University Avenue,,0,point,-97.07186688288986,36.119665049812184
+road_intersection,road_intersection_013,Monroe Street;West Athletic Avenue,,0,point,-97.0718479008195,36.12346388403212
+road_intersection,road_intersection_014,University Circle;University Avenue,,0,point,-97.07560353244277,36.11962044261892
+road_intersection,road_intersection_015,University Circle;University Avenue,,0,point,-97.07448069686282,36.11965513710477
+road_intersection,road_intersection_016,University Avenue;Hester Street,,0,point,-97.0668948342826,36.119711520040575
+road_intersection,road_intersection_017,University Avenue;Knoblock Street;University Thru Road,,0,point,-97.06515047665607,36.11973010208616
+road_intersection,road_intersection_018,Washington Street;Hester Street;Parkinglot Thru Road,,0,point,-97.06785837439226,36.124371645384514
+road_intersection,road_intersection_019,Hester Street;East Athletic Avenue,,0,point,-97.06772514325021,36.12345154430877
+road_intersection,road_intersection_020,Hester Street;Morrill Avenue,,0,point,-97.06769709612493,36.121731624881214
+road_intersection,road_intersection_021,Parkinglot Thru Road;Knoblock Street,,0,point,-97.06511640900668,36.12442720355229
+road_intersection,road_intersection_022,East Athletic Avenue;Knoblock Street,,0,point,-97.06509931303921,36.12344930772207
+road_intersection,road_intersection_023,Morrill Avenue;Knoblock Street,,0,point,-97.06509588949449,36.12175135603985
+road_intersection,road_intersection_024,Knoblock Street;Maple Avenue,,0,point,-97.06507393099923,36.12063146230588
+road_intersection,road_intersection_025,Knoblock Street;Elm Avenue,,0,point,-97.06506226275208,36.12217402355779
+road_intersection,road_intersection_026,Knoblock Street;Miller Avenue,,0,point,-97.06509743215472,36.12374000837627
+road_intersection,road_intersection_027,Knoblock Street;Matthews Avenue,,0,point,-97.06506659061336,36.12524320889119
+road_intersection,road_intersection_028,University Thru Road;South West Street,,0,point,-97.06407279550865,36.119728475464676
+road_intersection,road_intersection_029,South West Street;Maple Avenue,,0,point,-97.06409278148065,36.12063043406826
+road_intersection,road_intersection_030,Maple Avenue;Duck Street,,0,point,-97.06274537277469,36.12064519137751
+road_intersection,road_intersection_031,Maple Avenue;North West Street,,0,point,-97.06392513636483,36.12064519137751
+road_intersection,road_intersection_032,Elm Avenue;Duck Street,,0,point,-97.06277434629575,36.122188620592496
+road_intersection,road_intersection_033,Elm Avenue;North West Street,,0,point,-97.06391115393245,36.12217988605345
+road_intersection,road_intersection_034,Miller Avenue;Duck Street,,0,point,-97.06272657186679,36.123756446896934
+road_intersection,road_intersection_035,Miller Avenue;North West Street,,0,point,-97.06394122710768,36.123726993683604
+road_intersection,road_intersection_036,Matthews Avenue;Duck Street,,0,point,-97.06272199726084,36.12525860032831
+road_intersection,road_intersection_037,Matthews Avenue;North West Street,,0,point,-97.0639166936858,36.12526003278408
+sidewalk,sidewalk_001,,sidewalk_001,0,intersection,-97.07562598355459,36.12669418679078
+sidewalk,sidewalk_001,,sidewalk_001,1,curve,-97.07561976859913,36.12657370874962
+sidewalk,sidewalk_001,,sidewalk_001,2,curve,-97.07557626391103,36.126523509511216
+sidewalk,sidewalk_001,,sidewalk_001,3,curve,-97.07556383400015,36.1262172934618
+sidewalk,sidewalk_001,,sidewalk_001,4,curve,-97.07563219851002,36.126136974300266
+sidewalk,sidewalk_001,,sidewalk_001,5,curve,-97.07561976859913,36.125911076217825
+sidewalk,sidewalk_001,,sidewalk_001,6,intersection,-97.07562598355456,36.12519321799614
+sidewalk,sidewalk_001,,sidewalk_001,7,intersection,-97.07563219851002,36.12478659609108
+sidewalk,sidewalk_001,,sidewalk_001,8,intersection,-97.0749547683668,36.124791616127446
+sidewalk,sidewalk_001,,sidewalk_001,9,intersection,-97.0749485478826,36.12485191012825
+sidewalk,sidewalk_001,,sidewalk_001,10,intersection,-97.07479240684341,36.12485191012825
+sidewalk,sidewalk_001,,sidewalk_001,11,intersection,-97.0746237745211,36.12476614816557
+sidewalk,sidewalk_001,,sidewalk_001,12,intersection,-97.07441142270781,36.12476614816557
+sidewalk,sidewalk_001,,sidewalk_001,13,intersection,-97.07441142270781,36.125194957042005
+sidewalk,sidewalk_001,,sidewalk_001,14,intersection,-97.07561058588873,36.125200001838365
+sidewalk,sidewalk_002,,sidewalk_002,0,intersection,-97.07459254631326,36.12476110334133
+sidewalk,sidewalk_002,,sidewalk_002,1,intersection,-97.0745051073313,36.12470561025316
+sidewalk,sidewalk_003,,sidewalk_003,0,intersection,-97.07440517706623,36.12476614816557
+sidewalk,sidewalk_003,,sidewalk_003,1,intersection,-97.07423654474393,36.1247711929895
+sidewalk,sidewalk_004,,sidewalk_004,0,intersection,-97.07437394885841,36.12483173085135
+sidewalk,sidewalk_004,,sidewalk_004,1,intersection,-97.07426152731018,36.1247711929895
+sidewalk,sidewalk_005,,sidewalk_005,0,intersection,-97.07426777295176,36.12486199976476
+sidewalk,sidewalk_005,,sidewalk_005,1,intersection,-97.07425528166863,36.1247711929895
+sidewalk,sidewalk_006,,sidewalk_006,0,intersection,-97.07423027687798,36.124766143677725
+sidewalk,sidewalk_006,,sidewalk_006,1,intersection,-97.07420527208735,36.12470050259508
+sidewalk,sidewalk_007,,sidewalk_007,0,intersection,-97.07422402568034,36.124761094365624
+sidewalk,sidewalk_007,,sidewalk_007,1,intersection,-97.07359265471696,36.1247560450532
+sidewalk,sidewalk_007,,sidewalk_007,2,intersection,-97.07353639393806,36.12484188332027
+sidewalk,sidewalk_007,,sidewalk_007,3,intersection,-97.07348013315915,36.124877228461784
+sidewalk,sidewalk_007,,sidewalk_007,4,intersection,-97.07346137956617,36.125069101809444
+sidewalk,sidewalk_007,,sidewalk_007,5,intersection,-97.07351131737178,36.125074143854796
+sidewalk,sidewalk_007,,sidewalk_007,6,intersection,-97.0735425285003,36.12486237767109
+sidewalk,sidewalk_008,,sidewalk_008,0,intersection,-97.07353004404888,36.125255657271865
+sidewalk,sidewalk_008,,sidewalk_008,1,intersection,-97.0735238018232,36.125069101809444
+sidewalk,sidewalk_009,,sidewalk_009,0,intersection,-97.07441644009846,36.12521532099323
+sidewalk,sidewalk_009,,sidewalk_009,1,intersection,-97.07355395159823,36.125205224495865
+sidewalk,sidewalk_010,,sidewalk_010,0,intersection,-97.07351020218155,36.1248316531808
+sidewalk,sidewalk_010,,sidewalk_010,1,intersection,-97.07351020218155,36.124750880770826
+sidewalk,sidewalk_010,,sidewalk_010,2,intersection,-97.07313520718144,36.124690301408805
+sidewalk,sidewalk_011,,sidewalk_011,0,intersection,-97.07331645476484,36.12491242550767
+sidewalk,sidewalk_011,,sidewalk_011,1,intersection,-97.07312895726479,36.124690301408805
+sidewalk,sidewalk_012,,sidewalk_012,0,intersection,-97.07359145109824,36.1247609773266
+sidewalk,sidewalk_012,,sidewalk_012,1,intersection,-97.0735602015149,36.12469534969075
+sidewalk,sidewalk_013,,sidewalk_013,0,intersection,-97.07352266865553,36.12534210193423
+sidewalk,sidewalk_013,,sidewalk_013,1,intersection,-97.07353517960864,36.125397681956514
+sidewalk,sidewalk_013,,sidewalk_013,2,intersection,-97.07393553010856,36.125670528767884
+sidewalk,sidewalk_013,,sidewalk_013,3,intersection,-97.073929274632,36.125817057219614
+sidewalk,sidewalk_013,,sidewalk_013,4,intersection,-97.07331623792902,36.125817057219614
+sidewalk,sidewalk_014,,sidewalk_014,0,intersection,-97.07351641317896,36.125806951817935
+sidewalk,sidewalk_014,,sidewalk_014,1,intersection,-97.07377914319454,36.12556442178727
+sidewalk,sidewalk_014,,sidewalk_014,2,intersection,-97.07389160321206,36.125478631256534
+sidewalk,sidewalk_014,,sidewalk_014,3,intersection,-97.07389787411267,36.12563565170306
+sidewalk,sidewalk_014,,sidewalk_014,4,intersection,-97.07372228889464,36.12571162922571
+sidewalk,sidewalk_014,,sidewalk_014,5,intersection,-97.07361568358371,36.12559513032757
+sidewalk,sidewalk_014,,sidewalk_014,6,intersection,-97.07369093439142,36.12541278387903
+sidewalk,sidewalk_014,,sidewalk_014,7,intersection,-97.07379753970238,36.125357066824165
+sidewalk,sidewalk_014,,sidewalk_014,8,intersection,-97.07390389739412,36.12535706682417
+sidewalk,sidewalk_014,,sidewalk_014,9,intersection,-97.07389153022982,36.12546694924351
+sidewalk,sidewalk_015,,sidewalk_015,0,intersection,-97.07355761679369,36.12535207216509
+sidewalk,sidewalk_015,,sidewalk_015,1,intersection,-97.07377404216895,36.12537205079949
+sidewalk,sidewalk_016,,sidewalk_016,0,intersection,-97.07452039913856,36.12562323960139
+sidewalk,sidewalk_016,,sidewalk_016,1,intersection,-97.07452039913856,36.12581916630888
+sidewalk,sidewalk_016,,sidewalk_016,2,intersection,-97.07394819212854,36.125824190064186
+sidewalk,sidewalk_017,,sidewalk_017,0,intersection,-97.0745452777042,36.125924665102666
+sidewalk,sidewalk_017,,sidewalk_017,1,intersection,-97.07455771698703,36.12665310528556
+sidewalk,sidewalk_018,,sidewalk_018,0,intersection,-97.07567725244141,36.126663152689105
+sidewalk,sidewalk_018,,sidewalk_018,1,intersection,-97.07457997614695,36.126672682658295
+sidewalk,sidewalk_018,,sidewalk_018,2,intersection,-97.07198426878371,36.12666791767384
+sidewalk,sidewalk_019,,sidewalk_019,0,intersection,-97.07567725244141,36.12424250304256
+sidewalk,sidewalk_019,,sidewalk_019,1,intersection,-97.07488084222769,36.12423297277832
+sidewalk,sidewalk_019,,sidewalk_019,2,intersection,-97.07488084222769,36.124323510241844
+sidewalk,sidewalk_020,,sidewalk_020,0,intersection,-97.07489262637843,36.124242602727726
+sidewalk,sidewalk_020,,sidewalk_020,1,intersection,-97.07445072072605,36.124242602727726
+sidewalk,sidewalk_020,,sidewalk_020,2,intersection,-97.07443892609218,36.124552229734654
+sidewalk,sidewalk_021,,sidewalk_021,0,intersection,-97.07444482865533,36.1242470950239
+sidewalk,sidewalk_021,,sidewalk_021,1,intersection,-97.07443893335572,36.12391852516282
+sidewalk,sidewalk_021,,sidewalk_021,2,intersection,-97.07486339492853,36.1239042394855
+sidewalk,sidewalk_021,,sidewalk_021,3,intersection,-97.07486929022814,36.12425185689584
+sidewalk,sidewalk_022,,sidewalk_022,0,intersection,-97.0748751927913,36.12390857894937
+sidewalk,sidewalk_022,,sidewalk_022,1,intersection,-97.07562481831086,36.12390857894937
+sidewalk,sidewalk_022,,sidewalk_022,2,intersection,-97.07563073866586,36.12423854529172
+sidewalk,sidewalk_023,,sidewalk_023,0,intersection,-97.0756248130441,36.12391785818212
+sidewalk,sidewalk_023,,sidewalk_023,1,intersection,-97.07563666428757,36.123568451332645
+sidewalk,sidewalk_023,,sidewalk_023,2,intersection,-97.07488411032789,36.12358281054889
+sidewalk,sidewalk_023,,sidewalk_023,3,intersection,-97.07488411032789,36.123903499027165
+sidewalk,sidewalk_024,,sidewalk_024,0,intersection,-97.07445746556336,36.123903499027165
+sidewalk,sidewalk_024,,sidewalk_024,1,intersection,-97.07443971057386,36.12359276620898
+sidewalk,sidewalk_024,,sidewalk_024,2,intersection,-97.07490725863049,36.12358798569448
+sidewalk,sidewalk_025,,sidewalk_025,0,intersection,-97.07443515034252,36.12357845208961
+sidewalk,sidewalk_025,,sidewalk_025,1,intersection,-97.07444698215158,36.12337297390441
+sidewalk,sidewalk_025,,sidewalk_025,2,intersection,-97.07562215536606,36.123382514059934
+sidewalk,sidewalk_025,,sidewalk_025,3,intersection,-97.07563398717511,36.12354976376596
+sidewalk,sidewalk_026,,sidewalk_026,0,intersection,-97.07421417008942,36.12453891902753
+sidewalk,sidewalk_026,,sidewalk_026,1,intersection,-97.07422008599394,36.12414230271417
+sidewalk,sidewalk_026,,sidewalk_026,2,intersection,-97.07414909513966,36.12411841010117
+sidewalk,sidewalk_026,,sidewalk_026,3,intersection,-97.07412543152157,36.12391293332928
+sidewalk,sidewalk_026,,sidewalk_026,4,intersection,-97.07413134742609,36.123764798578705
+sidewalk,sidewalk_026,,sidewalk_026,5,intersection,-97.07422008599394,36.12375046294285
+sidewalk,sidewalk_026,,sidewalk_026,6,intersection,-97.07422600189847,36.12356409943847
+sidewalk,sidewalk_026,,sidewalk_026,7,intersection,-97.07430290865727,36.123554542323745
+sidewalk,sidewalk_027,,sidewalk_027,0,intersection,-97.0742675005357,36.12336863674085
+sidewalk,sidewalk_027,,sidewalk_027,1,intersection,-97.0741907829389,36.123373403556165
+sidewalk,sidewalk_027,,sidewalk_027,2,intersection,-97.0742084869997,36.12355454232375
+sidewalk,sidewalk_028,,sidewalk_028,0,intersection,-97.07418488158531,36.1233781703712
+sidewalk,sidewalk_028,,sidewalk_028,1,intersection,-97.07303411763344,36.12336863674085
+sidewalk,sidewalk_028,,sidewalk_028,2,intersection,-97.07303411763344,36.123416304881
+sidewalk,sidewalk_028,,sidewalk_028,3,intersection,-97.07196007127837,36.12339723762842
+sidewalk,sidewalk_029,,sidewalk_029,0,intersection,-97.0730661916194,36.12357307950538
+sidewalk,sidewalk_029,,sidewalk_029,1,intersection,-97.07194242042188,36.123563574549124
+sidewalk,sidewalk_030,,sidewalk_030,0,intersection,-97.07289556667317,36.1235255547126
+sidewalk,sidewalk_030,,sidewalk_030,1,intersection,-97.07287776302104,36.12373647374576
+sidewalk,sidewalk_030,,sidewalk_030,2,intersection,-97.07296094909739,36.123755671799785
+sidewalk,sidewalk_030,,sidewalk_030,3,intersection,-97.07295500723481,36.123938053078895
+sidewalk,sidewalk_031,,sidewalk_031,0,intersection,-97.07293718164702,36.12387086002536
+sidewalk,sidewalk_031,,sidewalk_031,1,intersection,-97.07228951862432,36.12388045903653
+sidewalk,sidewalk_032,,sidewalk_032,0,intersection,-97.07258640853479,36.12389484770213
+sidewalk,sidewalk_032,,sidewalk_032,1,intersection,-97.07258047073658,36.12410108495266
+sidewalk,sidewalk_033,,sidewalk_033,0,intersection,-97.0730601510891,36.12410586838405
+sidewalk,sidewalk_033,,sidewalk_033,1,intersection,-97.07259231469591,36.12409630152101
+sidewalk,sidewalk_034,,sidewalk_034,0,intersection,-97.07259231469591,36.124134568966184
+sidewalk,sidewalk_034,,sidewalk_034,1,intersection,-97.07228437175358,36.12412978553657
+sidewalk,sidewalk_035,,sidewalk_035,0,intersection,-97.07294704396583,36.124120227179496
+sidewalk,sidewalk_035,,sidewalk_035,1,intersection,-97.0729529554232,36.124521320364764
+sidewalk,sidewalk_036,,sidewalk_036,0,intersection,-97.07328399703646,36.12417752633143
+sidewalk,sidewalk_036,,sidewalk_036,1,intersection,-97.07313621060199,36.124039053309325
+sidewalk,sidewalk_036,,sidewalk_036,2,intersection,-97.07294704396583,36.124039053309325
+sidewalk,sidewalk_036,,sidewalk_036,3,intersection,-97.07294113250845,36.1240963525205
+sidewalk,sidewalk_037,,sidewalk_037,0,intersection,-97.07293522105108,36.12404860318076
+sidewalk,sidewalk_037,,sidewalk_037,1,intersection,-97.07294113250845,36.123948329472746
+sidewalk,sidewalk_038,,sidewalk_038,0,intersection,-97.07343020872379,36.12292024561505
+sidewalk,sidewalk_038,,sidewalk_038,1,intersection,-97.07343020872375,36.12241526922994
+sidewalk,sidewalk_038,,sidewalk_038,2,intersection,-97.07338315260657,36.12230599035483
+sidewalk,sidewalk_038,,sidewalk_038,3,intersection,-97.07332433246007,36.122049421963276
+sidewalk,sidewalk_038,,sidewalk_038,4,intersection,-97.07263025473145,36.12204467068885
+sidewalk,sidewalk_038,,sidewalk_038,5,intersection,-97.07204793528115,36.12204467068885
+sidewalk,sidewalk_038,,sidewalk_038,6,intersection,-97.07223027773529,36.122206213857744
+sidewalk,sidewalk_038,,sidewalk_038,7,intersection,-97.07255967055565,36.122191960062096
+sidewalk,sidewalk_038,,sidewalk_038,8,intersection,-97.07264201876073,36.12204467068885
+sidewalk,sidewalk_039,,sidewalk_039,0,intersection,-97.07220086766203,36.12220146259282
+sidewalk,sidewalk_039,,sidewalk_039,1,intersection,-97.07194205901747,36.12221571638674
+sidewalk,sidewalk_040,,sidewalk_040,0,intersection,-97.07195973647103,36.122696446773155
+sidewalk,sidewalk_040,,sidewalk_040,1,intersection,-97.07250051166167,36.122696446773155
+sidewalk,sidewalk_040,,sidewalk_040,2,intersection,-97.0725299016177,36.122440055156325
+sidewalk,sidewalk_040,,sidewalk_040,3,intersection,-97.07197149245344,36.12243530715553
+sidewalk,sidewalk_041,,sidewalk_041,0,intersection,-97.07195973647103,36.12251602313009
+sidewalk,sidewalk_041,,sidewalk_041,1,intersection,-97.07228890397839,36.12252551912163
+sidewalk,sidewalk_041,,sidewalk_041,2,intersection,-97.07240646380244,36.1224827871506
+sidewalk,sidewalk_041,,sidewalk_041,3,intersection,-97.07241233134953,36.12254914098698
+sidewalk,sidewalk_041,,sidewalk_041,4,intersection,-97.0724534041791,36.1226107552134
+sidewalk,sidewalk_041,,sidewalk_041,5,intersection,-97.07235365587871,36.122672369391466
+sidewalk,sidewalk_041,,sidewalk_041,6,intersection,-97.07230084795499,36.12262971342719
+sidewalk,sidewalk_041,,sidewalk_041,7,intersection,-97.07234192078455,36.12254914098698
+sidewalk,sidewalk_042,,sidewalk_042,0,intersection,-97.07427234377438,36.12236903758634
+sidewalk,sidewalk_042,,sidewalk_042,1,intersection,-97.074172595474,36.122373777154806
+sidewalk,sidewalk_042,,sidewalk_042,2,intersection,-97.07411978755027,36.12241169369225
+sidewalk,sidewalk_043,,sidewalk_043,0,intersection,-97.07395549623197,36.122387995858496
+sidewalk,sidewalk_043,,sidewalk_043,1,intersection,-97.07392029094949,36.12232164188592
+sidewalk,sidewalk_043,,sidewalk_043,2,intersection,-97.07389682076118,36.12228846487861
+sidewalk,sidewalk_044,,sidewalk_044,0,intersection,-97.07568055507394,36.122255287857264
+sidewalk,sidewalk_044,,sidewalk_044,1,intersection,-97.07481802565296,36.12222685039924
+sidewalk,sidewalk_044,,sidewalk_044,2,intersection,-97.07481802565296,36.122032527493744
+sidewalk,sidewalk_044,,sidewalk_044,3,intersection,-97.0744248999985,36.12206096502216
+sidewalk,sidewalk_044,,sidewalk_044,4,intersection,-97.07403764189111,36.12206096502216
+sidewalk,sidewalk_044,,sidewalk_044,5,intersection,-97.07408449886323,36.122236017962535
+sidewalk,sidewalk_044,,sidewalk_044,6,intersection,-97.07442288997372,36.12222187972697
+sidewalk,sidewalk_044,,sidewalk_044,7,intersection,-97.07478461840219,36.122236017962535
+sidewalk,sidewalk_045,,sidewalk_045,0,intersection,-97.07441705564423,36.12222187972697
+sidewalk,sidewalk_045,,sidewalk_045,1,intersection,-97.07441705564423,36.12205693345731
+sidewalk,sidewalk_046,,sidewalk_046,0,intersection,-97.07536805135132,36.12200980588803
+sidewalk,sidewalk_046,,sidewalk_046,1,intersection,-97.07535638269235,36.12152910306553
+sidewalk,sidewalk_046,,sidewalk_046,2,intersection,-97.07460375418798,36.12153852863936
+sidewalk,sidewalk_046,,sidewalk_046,3,intersection,-97.0744345586327,36.12157151813885
+sidewalk,sidewalk_046,,sidewalk_046,4,intersection,-97.07439955265576,36.12142542167872
+sidewalk,sidewalk_046,,sidewalk_046,5,intersection,-97.07398531526188,36.12139714491311
+sidewalk,sidewalk_046,,sidewalk_046,6,intersection,-97.07382778836562,36.121222771300076
+sidewalk,sidewalk_046,,sidewalk_046,7,intersection,-97.07380445104764,36.12119449446147
+sidewalk,sidewalk_047,,sidewalk_047,0,intersection,-97.07457928041623,36.12140687434549
+sidewalk,sidewalk_047,,sidewalk_047,1,intersection,-97.07439360628153,36.12140428844996
+sidewalk,sidewalk_047,,sidewalk_047,2,intersection,-97.0744000088379,36.121440490979694
+sidewalk,sidewalk_048,,sidewalk_048,0,intersection,-97.07466959707725,36.12111243026979
+sidewalk,sidewalk_048,,sidewalk_048,1,intersection,-97.07464625975929,36.121013461151016
+sidewalk,sidewalk_049,,sidewalk_049,0,intersection,-97.07438954926167,36.121423475259455
+sidewalk,sidewalk_049,,sidewalk_049,1,intersection,-97.07466959707725,36.12112185589364
+sidewalk,sidewalk_050,,sidewalk_050,0,intersection,-97.07245838620003,36.12203613602891
+sidewalk,sidewalk_050,,sidewalk_050,1,intersection,-97.07194496520478,36.121842912763924
+sidewalk,sidewalk_051,,sidewalk_051,0,intersection,-97.07248755784748,36.1219560191231
+sidewalk,sidewalk_051,,sidewalk_051,1,intersection,-97.0719274622163,36.12196073188452
+sidewalk,sidewalk_051,,sidewalk_051,2,intersection,-97.07255756980138,36.12194659359938
+sidewalk,sidewalk_052,,sidewalk_052,0,intersection,-97.07257507278985,36.12204556154187
+sidewalk,sidewalk_052,,sidewalk_052,1,intersection,-97.07258674144882,36.1212962297308
+sidewalk,sidewalk_053,,sidewalk_053,0,intersection,-97.07284345194644,36.1212726657214
+sidewalk,sidewalk_053,,sidewalk_053,1,intersection,-97.07259919657105,36.12126327036718
+sidewalk,sidewalk_054,,sidewalk_054,0,intersection,-97.0728430179491,36.12119761971319
+sidewalk,sidewalk_054,,sidewalk_054,1,intersection,-97.07275013361459,36.121253891705685
+sidewalk,sidewalk_055,,sidewalk_055,0,intersection,-97.07285453561542,36.12126794719381
+sidewalk,sidewalk_055,,sidewalk_055,1,intersection,-97.07284293539311,36.12119298456134
+sidewalk,sidewalk_056,,sidewalk_056,0,intersection,-97.0725703301687,36.121277317517844
+sidewalk,sidewalk_056,,sidewalk_056,1,intersection,-97.07194391816365,36.121282002679436
+sidewalk,sidewalk_056,,sidewalk_056,2,intersection,-97.07240212694511,36.121000892488965
+sidewalk,sidewalk_056,,sidewalk_056,3,intersection,-97.07240212694511,36.121254116772086
+sidewalk,sidewalk_057,,sidewalk_057,0,intersection,-97.07257047980139,36.12126818476386
+sidewalk,sidewalk_057,,sidewalk_057,1,intersection,-97.07257047980139,36.12119288810589
+sidewalk,sidewalk_058,,sidewalk_058,0,intersection,-97.07257047980137,36.121192888105895
+sidewalk,sidewalk_058,,sidewalk_058,1,intersection,-97.07247723261075,36.121192888105895
+sidewalk,sidewalk_058,,sidewalk_058,2,intersection,-97.07240729721778,36.12121171871857
+sidewalk,sidewalk_059,,sidewalk_059,0,intersection,-97.07246557671192,36.121192888105895
+sidewalk,sidewalk_059,,sidewalk_059,1,intersection,-97.07238981336953,36.12117405748871
+sidewalk,sidewalk_060,,sidewalk_060,0,intersection,-97.07239564131893,36.12096692040156
+sidewalk,sidewalk_060,,sidewalk_060,1,intersection,-97.07238981336953,36.12072682900309
+sidewalk,sidewalk_060,,sidewalk_060,2,intersection,-97.07250077946581,36.12069380527086
+sidewalk,sidewalk_061,,sidewalk_061,0,intersection,-97.07249494952215,36.12089159539373
+sidewalk,sidewalk_061,,sidewalk_061,1,intersection,-97.07239584047977,36.12087746754433
+sidewalk,sidewalk_061,,sidewalk_061,2,intersection,-97.07212766307096,36.120717351740176
+sidewalk,sidewalk_061,,sidewalk_061,3,intersection,-97.0719469348172,36.1207079331533
+sidewalk,sidewalk_062,,sidewalk_062,0,intersection,-97.07277405102008,36.120618536048774
+sidewalk,sidewalk_062,,sidewalk_062,1,intersection,-97.07254422816543,36.120637576641386
+sidewalk,sidewalk_063,,sidewalk_063,0,intersection,-97.07250887080318,36.12068041795789
+sidewalk,sidewalk_063,,sidewalk_063,1,intersection,-97.0725206565906,36.12050905255163
+sidewalk,sidewalk_064,,sidewalk_064,0,intersection,-97.0725913713151,36.12067089766736
+sidewalk,sidewalk_064,,sidewalk_064,1,intersection,-97.07258547842139,36.1205185728618
+sidewalk,sidewalk_065,,sidewalk_065,0,intersection,-97.07271512208297,36.12055189393826
+sidewalk,sidewalk_065,,sidewalk_065,1,intersection,-97.0725221406337,36.120551893938256
+sidewalk,sidewalk_066,,sidewalk_066,0,intersection,-97.07272121498083,36.120618108958936
+sidewalk,sidewalk_066,,sidewalk_066,1,intersection,-97.07272707010868,36.12031541126566
+sidewalk,sidewalk_066,,sidewalk_066,2,intersection,-97.07238161756511,36.12032487058624
+sidewalk,sidewalk_067,,sidewalk_067,0,intersection,-97.07256296520279,36.12019728316344
+sidewalk,sidewalk_067,,sidewalk_067,1,intersection,-97.07273846291667,36.120192557699355
+sidewalk,sidewalk_067,,sidewalk_067,2,intersection,-97.07275016276427,36.12034377240902
+sidewalk,sidewalk_068,,sidewalk_068,0,intersection,-97.07304850887786,36.1205847702506
+sidewalk,sidewalk_068,,sidewalk_068,1,intersection,-97.07303680903027,36.12006497006155
+sidewalk,sidewalk_068,,sidewalk_068,2,intersection,-97.07294321024953,36.11995628413248
+sidewalk,sidewalk_068,,sidewalk_068,3,intersection,-97.07306020872545,36.1198334215967
+sidewalk,sidewalk_068,,sidewalk_068,4,intersection,-97.07304267455237,36.11974371711504
+sidewalk,sidewalk_069,,sidewalk_069,0,intersection,-97.0733641343922,36.12031499127262
+sidewalk,sidewalk_069,,sidewalk_069,1,intersection,-97.07335244494345,36.12003643662414
+sidewalk,sidewalk_069,,sidewalk_069,2,intersection,-97.07231208400736,36.12005532171628
+sidewalk,sidewalk_070,,sidewalk_070,0,intersection,-97.07273874888566,36.120192238498475
+sidewalk,sidewalk_070,,sidewalk_070,1,intersection,-97.07273290416128,36.12006476426064
+sidewalk,sidewalk_071,,sidewalk_071,0,intersection,-97.07335244494345,36.12031499127262
+sidewalk,sidewalk_071,,sidewalk_071,1,intersection,-97.07273929434118,36.12031970833306
+sidewalk,sidewalk_072,,sidewalk_072,0,intersection,-97.07372033530483,36.11974422486766
+sidewalk,sidewalk_072,,sidewalk_072,1,intersection,-97.07196847644116,36.119748941962385
+sidewalk,sidewalk_073,,sidewalk_073,0,intersection,-97.07285024540255,36.11974422486766
+sidewalk,sidewalk_073,,sidewalk_073,1,intersection,-97.0727218899369,36.11981963126824
+sidewalk,sidewalk_073,,sidewalk_073,2,intersection,-97.07273942410995,36.12004625269995
+sidewalk,sidewalk_074,,sidewalk_074,0,intersection,-97.07272188993689,36.11983851641253
+sidewalk,sidewalk_074,,sidewalk_074,1,intersection,-97.0727335793856,36.119758254517926
+sidewalk,sidewalk_075,,sidewalk_075,0,intersection,-97.07427074189232,36.11956468137572
+sidewalk,sidewalk_075,,sidewalk_075,1,intersection,-97.07316304424515,36.11957866239919
+sidewalk,sidewalk_076,,sidewalk_076,0,intersection,-97.07234813083262,36.121637503906136
+sidewalk,sidewalk_076,,sidewalk_076,1,intersection,-97.07194934341797,36.12164684093284
+sidewalk,sidewalk_076,,sidewalk_076,2,intersection,-97.07194353535402,36.12172190591612
+sidewalk,sidewalk_076,,sidewalk_076,3,intersection,-97.07233267563964,36.121726597475195
+sidewalk,sidewalk_077,,sidewalk_077,0,intersection,-97.07219328210451,36.12171252279714
+sidewalk,sidewalk_077,,sidewalk_077,1,intersection,-97.072274595,36.12146856130989
+sidewalk,sidewalk_078,,sidewalk_078,0,intersection,-97.07403615719782,36.12205528898859
+sidewalk,sidewalk_078,,sidewalk_078,1,intersection,-97.07338415041032,36.122059908874164
+sidewalk,sidewalk_079,,sidewalk_079,0,intersection,-97.07325832453903,36.1220460492166
+sidewalk,sidewalk_079,,sidewalk_079,1,intersection,-97.07346994077707,36.12205528898859
+sidewalk,sidewalk_080,,sidewalk_080,0,intersection,-97.07193329840443,36.12033984647593
+sidewalk,sidewalk_080,,sidewalk_080,1,intersection,-97.07210651404942,36.1203271264522
+sidewalk,sidewalk_080,,sidewalk_080,2,intersection,-97.07207816967116,36.120057461464086
+sidewalk,sidewalk_080,,sidewalk_080,3,intersection,-97.071961539121,36.120019267302325
+sidewalk,sidewalk_080,,sidewalk_080,4,intersection,-97.07194577823584,36.12033755141599
+sidewalk,sidewalk_081,,sidewalk_081,0,intersection,-97.0717363816343,36.125336607146416
+sidewalk,sidewalk_081,,sidewalk_081,1,intersection,-97.07134781097534,36.12535506949073
+sidewalk,sidewalk_082,,sidewalk_082,0,intersection,-97.07174781018311,36.12528583567719
+sidewalk,sidewalk_082,,sidewalk_082,1,intersection,-97.071341777911,36.12525395024702
+sidewalk,sidewalk_083,,sidewalk_083,0,intersection,-97.07176423304549,36.12669597936173
+sidewalk,sidewalk_083,,sidewalk_083,1,intersection,-97.07172635710994,36.125349877073106
+sidewalk,sidewalk_083,,sidewalk_083,2,intersection,-97.07173392556416,36.12467741549334
+sidewalk,sidewalk_083,,sidewalk_083,3,intersection,-97.07171880728268,36.124494241567454
+sidewalk,sidewalk_083,,sidewalk_083,4,intersection,-97.07172638246979,36.12358254015104
+sidewalk,sidewalk_084,,sidewalk_084,0,intersection,-97.07201007610142,36.12665795125176
+sidewalk,sidewalk_084,,sidewalk_084,1,intersection,-97.07195786319656,36.12471796095333
+sidewalk,sidewalk_085,,sidewalk_085,0,intersection,-97.07294244940263,36.12448901483598
+sidewalk,sidewalk_085,,sidewalk_085,1,intersection,-97.07196532218296,36.12446491520584
+sidewalk,sidewalk_086,,sidewalk_086,0,intersection,-97.07389719966307,36.124561313682015
+sidewalk,sidewalk_086,,sidewalk_086,1,intersection,-97.07389719966307,36.12444081556829
+sidewalk,sidewalk_086,,sidewalk_086,2,intersection,-97.07350933236975,36.124422740835286
+sidewalk,sidewalk_086,,sidewalk_086,3,intersection,-97.07351679135618,36.124537214074074
+sidewalk,sidewalk_087,,sidewalk_087,0,intersection,-97.07175647056349,36.12448901483598
+sidewalk,sidewalk_087,,sidewalk_087,1,intersection,-97.07154015995762,36.12449503974236
+sidewalk,sidewalk_087,,sidewalk_087,2,intersection,-97.0715327009712,36.124561313682015
+sidewalk,sidewalk_087,,sidewalk_087,3,intersection,-97.07130311142214,36.124561313682015
+sidewalk,sidewalk_087,,sidewalk_087,4,intersection,-97.07131792365112,36.12447158071412
+sidewalk,sidewalk_087,,sidewalk_087,5,intersection,-97.07079702955231,36.12450121071137
+sidewalk,sidewalk_087,,sidewalk_087,6,intersection,-97.07065029882025,36.12437083863985
+sidewalk,sidewalk_087,,sidewalk_087,7,intersection,-97.07063562574704,36.12468491644466
+sidewalk,sidewalk_087,,sidewalk_087,8,intersection,-97.07170676009103,36.12466713848926
+sidewalk,sidewalk_088,,sidewalk_088,0,intersection,-97.07107637872714,36.12481515631881
+sidewalk,sidewalk_088,,sidewalk_088,1,intersection,-97.07110568275483,36.12469088936207
+sidewalk,sidewalk_089,,sidewalk_089,0,intersection,-97.07003375680728,36.1248440297561
+sidewalk,sidewalk_089,,sidewalk_089,1,intersection,-97.0696987369715,36.12484991251721
+sidewalk,sidewalk_089,,sidewalk_089,2,intersection,-97.06943616051846,36.12493016350267
+sidewalk,sidewalk_089,,sidewalk_089,3,intersection,-97.06934418117662,36.124941593469565
+sidewalk,sidewalk_090,,sidewalk_090,0,intersection,-97.06936538831283,36.12513002005992
+sidewalk,sidewalk_090,,sidewalk_090,1,intersection,-97.06929469785881,36.12432492146613
+sidewalk,sidewalk_091,,sidewalk_091,0,intersection,-97.06964771518075,36.125687907964554
+sidewalk,sidewalk_091,,sidewalk_091,1,intersection,-97.0696264513969,36.12463448228289
+sidewalk,sidewalk_092,,sidewalk_092,0,intersection,-97.06981782545145,36.12568218286319
+sidewalk,sidewalk_092,,sidewalk_092,1,intersection,-97.06981073121813,36.12462781997641
+sidewalk,sidewalk_093,,sidewalk_093,0,intersection,-97.07012287748464,36.12522376595683
+sidewalk,sidewalk_093,,sidewalk_093,1,intersection,-97.06966231976554,36.12521231960279
+sidewalk,sidewalk_094,,sidewalk_094,0,intersection,-97.07126364352736,36.12617380752463
+sidewalk,sidewalk_094,,sidewalk_094,1,intersection,-97.07124947252059,36.126093683980955
+sidewalk,sidewalk_094,,sidewalk_094,2,intersection,-97.07088875392087,36.12613367458053
+sidewalk,sidewalk_095,,sidewalk_095,0,intersection,-97.07093826431691,36.12662498599836
+sidewalk,sidewalk_095,,sidewalk_095,1,intersection,-97.070860067394,36.12646421261883
+sidewalk,sidewalk_096,,sidewalk_096,0,intersection,-97.07174530637798,36.12663143559825
+sidewalk,sidewalk_096,,sidewalk_096,1,intersection,-97.07072860690899,36.12664866365989
+sidewalk,sidewalk_096,,sidewalk_096,2,intersection,-97.07063601516585,36.126700439818926
+sidewalk,sidewalk_096,,sidewalk_096,3,intersection,-97.0695501407425,36.12670621006413
+sidewalk,sidewalk_097,,sidewalk_097,0,intersection,-97.06957019661023,36.1261300596727
+sidewalk,sidewalk_097,,sidewalk_097,1,intersection,-97.06954126377198,36.12670650926203
+sidewalk,sidewalk_098,,sidewalk_098,0,intersection,-97.06931944534536,36.12669871943093
+sidewalk,sidewalk_098,,sidewalk_098,1,intersection,-97.06833922150965,36.12672200594902
+sidewalk,sidewalk_098,,sidewalk_098,2,intersection,-97.06760510207565,36.12682343312885
+sidewalk,sidewalk_098,,sidewalk_098,3,intersection,-97.06528683017876,36.1268546414655
+sidewalk,sidewalk_098,,sidewalk_098,4,intersection,-97.06445406779669,36.12672167891032
+sidewalk,sidewalk_098,,sidewalk_098,5,intersection,-97.06286600930068,36.1266903935705
+sidewalk,sidewalk_099,,sidewalk_099,0,intersection,-97.06376655466732,36.1265808947829
+sidewalk,sidewalk_099,,sidewalk_099,1,intersection,-97.06352447257952,36.12660435882167
+sidewalk,sidewalk_100,,sidewalk_100,0,intersection,-97.06350510601249,36.12669821490662
+sidewalk,sidewalk_100,,sidewalk_100,1,intersection,-97.06350510601249,36.12659653747619
+sidewalk,sidewalk_101,,sidewalk_101,0,intersection,-97.06379596243738,36.12669050920933
+sidewalk,sidewalk_101,,sidewalk_101,1,intersection,-97.06373792627072,36.1266045685432
+sidewalk,sidewalk_102,,sidewalk_102,0,intersection,-97.06929972557741,36.12669832199251
+sidewalk,sidewalk_102,,sidewalk_102,1,intersection,-97.06929972557741,36.1253635122184
+sidewalk,sidewalk_103,,sidewalk_103,0,intersection,-97.06935755568789,36.125635992906766
+sidewalk,sidewalk_103,,sidewalk_103,1,intersection,-97.06806268170928,36.125666530232486
+sidewalk,sidewalk_104,,sidewalk_104,0,intersection,-97.06774064395675,36.12445008559438
+sidewalk,sidewalk_104,,sidewalk_104,1,intersection,-97.06532234876511,36.1245034974859
+sidewalk,sidewalk_105,,sidewalk_105,0,intersection,-97.06500116893497,36.12527415073291
+sidewalk,sidewalk_105,,sidewalk_105,1,intersection,-97.06514304050191,36.12525887154387
+sidewalk,sidewalk_105,,sidewalk_105,2,intersection,-97.0651714148153,36.1245407463042
+sidewalk,sidewalk_105,,sidewalk_105,3,intersection,-97.065275667753,36.124517780209445
+sidewalk,sidewalk_106,,sidewalk_106,0,intersection,-97.06520089292904,36.12456307902869
+sidewalk,sidewalk_106,,sidewalk_106,1,intersection,-97.06516349272351,36.12359636786274
+sidewalk,sidewalk_106,,sidewalk_106,2,intersection,-97.0661370961552,36.123535873577055
+sidewalk,sidewalk_107,,sidewalk_107,0,intersection,-97.06521884600782,36.12358128465722
+sidewalk,sidewalk_107,,sidewalk_107,1,intersection,-97.06520947610836,36.123535873577055
+sidewalk,sidewalk_108,,sidewalk_108,0,intersection,-97.0676362800693,36.12339207164987
+sidewalk,sidewalk_108,,sidewalk_108,1,intersection,-97.06519073630945,36.12338450312009
+sidewalk,sidewalk_109,,sidewalk_109,0,intersection,-97.06760817037092,36.12337693458958
+sidewalk,sidewalk_109,,sidewalk_109,1,intersection,-97.06671802992193,36.12276388119506
+sidewalk,sidewalk_110,,sidewalk_110,0,intersection,-97.0670272366042,36.12337693458958
+sidewalk,sidewalk_110,,sidewalk_110,1,intersection,-97.06738392655694,36.123066071862816
+sidewalk,sidewalk_110,,sidewalk_110,2,intersection,-97.06757165811102,36.123088817957736
+sidewalk,sidewalk_111,,sidewalk_111,0,intersection,-97.0706598421757,36.12439291637894
+sidewalk,sidewalk_111,,sidewalk_111,1,intersection,-97.07061290928718,36.12430951538414
+sidewalk,sidewalk_111,,sidewalk_111,2,intersection,-97.06791896148607,36.12433226111879
+sidewalk,sidewalk_111,,sidewalk_111,3,intersection,-97.06783490304564,36.123608019586925
+sidewalk,sidewalk_111,,sidewalk_111,4,intersection,-97.06802169957996,36.12352503315141
+sidewalk,sidewalk_111,,sidewalk_111,5,intersection,-97.0678722623525,36.12335151577548
+sidewalk,sidewalk_111,,sidewalk_111,6,intersection,-97.06785358269907,36.12360047536914
+sidewalk,sidewalk_112,,sidewalk_112,0,intersection,-97.06987894141841,36.12430459923856
+sidewalk,sidewalk_112,,sidewalk_112,1,intersection,-97.06980293277591,36.12415948314993
+sidewalk,sidewalk_112,,sidewalk_112,2,intersection,-97.06979602289933,36.12409808780091
+sidewalk,sidewalk_112,,sidewalk_112,3,intersection,-97.06961678340879,36.124103656234
+sidewalk,sidewalk_112,,sidewalk_112,4,intersection,-97.06960299575566,36.12417604582793
+sidewalk,sidewalk_112,,sidewalk_112,5,intersection,-97.06949958835726,36.12429855114254
+sidewalk,sidewalk_113,,sidewalk_113,0,intersection,-97.07005041581453,36.12431523584088
+sidewalk,sidewalk_113,,sidewalk_113,1,intersection,-97.06932809734755,36.12430967921831
+sidewalk,sidewalk_114,,sidewalk_114,0,intersection,-97.06934185579453,36.12430412259533
+sidewalk,sidewalk_114,,sidewalk_114,1,intersection,-97.06931433890055,36.12354286152958
+sidewalk,sidewalk_114,,sidewalk_114,2,intersection,-97.07004533456846,36.12353729115125
+sidewalk,sidewalk_114,,sidewalk_114,3,intersection,-97.07007290422403,36.12429444464635
+sidewalk,sidewalk_115,,sidewalk_115,0,intersection,-97.07003844215463,36.12411072424869
+sidewalk,sidewalk_115,,sidewalk_115,1,intersection,-97.06933556000173,36.12408845964374
+sidewalk,sidewalk_116,,sidewalk_116,0,intersection,-97.06978714227479,36.124110566429344
+sidewalk,sidewalk_116,,sidewalk_116,1,intersection,-97.06978714227479,36.12357447512332
+sidewalk,sidewalk_117,,sidewalk_117,0,intersection,-97.06962293053913,36.124099513037315
+sidewalk,sidewalk_117,,sidewalk_117,1,intersection,-97.06957503544956,36.12354684145163
+sidewalk,sidewalk_118,,sidewalk_118,0,intersection,-97.07003345987826,36.12379001742868
+sidewalk,sidewalk_118,,sidewalk_118,1,intersection,-97.06935046003964,36.12379001742868
+sidewalk,sidewalk_119,,sidewalk_119,0,intersection,-97.07004711987504,36.12372381462214
+sidewalk,sidewalk_119,,sidewalk_119,1,intersection,-97.06934540790722,36.12370730573889
+sidewalk,sidewalk_120,,sidewalk_120,0,intersection,-97.06957078258434,36.126129025174045
+sidewalk,sidewalk_120,,sidewalk_120,1,intersection,-97.06956394229422,36.1255654683889
+sidewalk,sidewalk_120,,sidewalk_120,2,intersection,-97.06950237968314,36.12531131400518
+sidewalk,sidewalk_120,,sidewalk_120,3,intersection,-97.06940661562149,36.12515108581862
+sidewalk,sidewalk_121,,sidewalk_121,0,intersection,-97.07171863368163,36.12354878596555
+sidewalk,sidewalk_121,,sidewalk_121,1,intersection,-97.07116457018199,36.12352115981922
+sidewalk,sidewalk_121,,sidewalk_121,2,intersection,-97.07116457018199,36.12385267293355
+sidewalk,sidewalk_121,,sidewalk_121,3,intersection,-97.07066056505913,36.12385817438443
+sidewalk,sidewalk_121,,sidewalk_121,4,intersection,-97.07062681212808,36.12397268202321
+sidewalk,sidewalk_121,,sidewalk_121,5,intersection,-97.07052605766667,36.12383704233877
+sidewalk,sidewalk_122,,sidewalk_122,0,intersection,-97.0704857558821,36.12380448877963
+sidewalk,sidewalk_122,,sidewalk_122,1,intersection,-97.07045888802573,36.12353320859516
+sidewalk,sidewalk_122,,sidewalk_122,2,intersection,-97.07010288892873,36.12350065491003
+sidewalk,sidewalk_123,,sidewalk_123,0,intersection,-97.07113205262637,36.123532834454586
+sidewalk,sidewalk_123,,sidewalk_123,1,intersection,-97.07045599987657,36.12353283445459
+sidewalk,sidewalk_124,,sidewalk_124,0,intersection,-97.07172856975855,36.12340969864168
+sidewalk,sidewalk_124,,sidewalk_124,1,intersection,-97.07050902362165,36.123393637434454
+sidewalk,sidewalk_125,,sidewalk_125,0,intersection,-97.07126461198908,36.12340969864168
+sidewalk,sidewalk_125,,sidewalk_125,1,intersection,-97.07122474612505,36.12265832402546
+sidewalk,sidewalk_126,,sidewalk_126,0,intersection,-97.07175676383795,36.1233996236362
+sidewalk,sidewalk_126,,sidewalk_126,1,intersection,-97.07174346339512,36.123233100420194
+sidewalk,sidewalk_126,,sidewalk_126,2,intersection,-97.07160351228967,36.123227717294704
+sidewalk,sidewalk_127,,sidewalk_127,0,intersection,-97.07171680604172,36.12286704704524
+sidewalk,sidewalk_127,,sidewalk_127,1,intersection,-97.07160381410908,36.12286167823557
+sidewalk,sidewalk_128,,sidewalk_128,0,intersection,-97.07135789049099,36.12287778466345
+sidewalk,sidewalk_128,,sidewalk_128,1,intersection,-97.07089494688026,36.12285107431522
+sidewalk,sidewalk_129,,sidewalk_129,0,intersection,-97.07117237123568,36.12308050034049
+sidewalk,sidewalk_129,,sidewalk_129,1,intersection,-97.07040615158735,36.12303248099534
+sidewalk,sidewalk_129,,sidewalk_129,2,intersection,-97.07021459667527,36.12295778417782
+sidewalk,sidewalk_130,,sidewalk_130,0,intersection,-97.07013553750657,36.12339542552549
+sidewalk,sidewalk_130,,sidewalk_130,1,intersection,-97.07015523057225,36.122971236147926
+sidewalk,sidewalk_131,,sidewalk_131,0,intersection,-97.07040467607105,36.12310909794704
+sidewalk,sidewalk_131,,sidewalk_131,1,intersection,-97.07038498300535,36.1226371853999
+sidewalk,sidewalk_132,,sidewalk_132,0,intersection,-97.07089292147796,36.123089556085496
+sidewalk,sidewalk_132,,sidewalk_132,1,intersection,-97.07087989741456,36.122647705678006
+sidewalk,sidewalk_133,,sidewalk_133,0,intersection,-97.07172391743867,36.122647705678006
+sidewalk,sidewalk_133,,sidewalk_133,1,intersection,-97.0701515457482,36.12265288973548
+sidewalk,sidewalk_134,,sidewalk_134,0,intersection,-97.0701322922173,36.1226580737926
+sidewalk,sidewalk_134,,sidewalk_134,1,intersection,-97.06920812273393,36.12266844190583
+sidewalk,sidewalk_135,,sidewalk_135,0,intersection,-97.07174317096957,36.1225388403921
+sidewalk,sidewalk_135,,sidewalk_135,1,intersection,-97.0689982113719,36.12255423805169
+sidewalk,sidewalk_135,,sidewalk_135,2,intersection,-97.06900454288505,36.12266163890135
+sidewalk,sidewalk_135,,sidewalk_135,3,intersection,-97.06925147189747,36.12266163890135
+sidewalk,sidewalk_136,,sidewalk_136,0,intersection,-97.06929579248943,36.12342878355454
+sidewalk,sidewalk_136,,sidewalk_136,1,intersection,-97.06922624580442,36.122958944358416
+sidewalk,sidewalk_137,,sidewalk_137,0,intersection,-97.06970675017367,36.123387928083886
+sidewalk,sidewalk_137,,sidewalk_137,1,intersection,-97.0696688156182,36.12329600319719
+sidewalk,sidewalk_138,,sidewalk_138,0,intersection,-97.06920095610077,36.12296405132131
+sidewalk,sidewalk_138,,sidewalk_138,1,intersection,-97.06899180160343,36.12305108370696
+sidewalk,sidewalk_138,,sidewalk_138,2,intersection,-97.06899180160343,36.12266711657357
+sidewalk,sidewalk_139,,sidewalk_139,0,intersection,-97.06895377351302,36.123086920543585
+sidewalk,sidewalk_139,,sidewalk_139,1,intersection,-97.06851645047314,36.12306132280481
+sidewalk,sidewalk_140,,sidewalk_140,0,intersection,-97.06849743642795,36.12305620325605
+sidewalk,sidewalk_140,,sidewalk_140,1,intersection,-97.06849743642795,36.122672682017004
+sidewalk,sidewalk_140,,sidewalk_140,2,intersection,-97.0681420456033,36.12267268201701
+sidewalk,sidewalk_140,,sidewalk_140,3,intersection,-97.068472051369,36.123031517832345
+sidewalk,sidewalk_141,,sidewalk_141,0,intersection,-97.06785536795641,36.12335504350891
+sidewalk,sidewalk_141,,sidewalk_141,1,intersection,-97.06778553515666,36.12267302356674
+sidewalk,sidewalk_142,,sidewalk_142,0,intersection,-97.06902348024339,36.122549951667935
+sidewalk,sidewalk_142,,sidewalk_142,1,intersection,-97.0677812783534,36.12253467148733
+sidewalk,sidewalk_143,,sidewalk_143,0,intersection,-97.06814069717437,36.122662006234776
+sidewalk,sidewalk_143,,sidewalk_143,1,intersection,-97.06778789779521,36.122656917375856
+sidewalk,sidewalk_144,,sidewalk_144,0,intersection,-97.07121509176415,36.122534784663046
+sidewalk,sidewalk_144,,sidewalk_144,1,intersection,-97.07121509176415,36.12182234005155
+sidewalk,sidewalk_144,,sidewalk_144,2,intersection,-97.07170649089939,36.12182234005155
+sidewalk,sidewalk_145,,sidewalk_145,0,intersection,-97.07173799084396,36.12200045181054
+sidewalk,sidewalk_145,,sidewalk_145,1,intersection,-97.07160580866532,36.1219902830527
+sidewalk,sidewalk_146,,sidewalk_146,0,intersection,-97.071354033087,36.1219902830527
+sidewalk,sidewalk_146,,sidewalk_146,1,intersection,-97.07126591163461,36.1219902830527
+sidewalk,sidewalk_147,,sidewalk_147,0,intersection,-97.0713287995844,36.12233063295054
+sidewalk,sidewalk_147,,sidewalk_147,1,intersection,-97.07122817886476,36.12232555311217
+sidewalk,sidewalk_148,,sidewalk_148,0,intersection,-97.07130364440451,36.12241699015263
+sidewalk,sidewalk_148,,sidewalk_148,1,intersection,-97.07130364440451,36.12232555311217
+sidewalk,sidewalk_149,,sidewalk_149,0,intersection,-97.07123446765972,36.12241191031984
+sidewalk,sidewalk_149,,sidewalk_149,1,intersection,-97.07132251078943,36.12241191031984
+sidewalk,sidewalk_150,,sidewalk_150,0,intersection,-97.07171241607814,36.12234079262631
+sidewalk,sidewalk_150,,sidewalk_150,1,intersection,-97.0715620208763,36.12234079262631
+sidewalk,sidewalk_151,,sidewalk_151,0,intersection,-97.07123616460562,36.12232560721976
+sidewalk,sidewalk_151,,sidewalk_151,1,intersection,-97.07089150893471,36.12233573082445
+sidewalk,sidewalk_151,,sidewalk_151,2,intersection,-97.07089777540145,36.12253314085512
+sidewalk,sidewalk_152,,sidewalk_152,0,intersection,-97.07111083527073,36.12213325848247
+sidewalk,sidewalk_152,,sidewalk_152,1,intersection,-97.06774574262926,36.12213325848247
+sidewalk,sidewalk_153,,sidewalk_153,0,intersection,-97.0709204815438,36.12233091224898
+sidewalk,sidewalk_153,,sidewalk_153,1,intersection,-97.07090165898106,36.122082577949364
+sidewalk,sidewalk_154,,sidewalk_154,0,intersection,-97.07039344978723,36.12253870156953
+sidewalk,sidewalk_154,,sidewalk_154,1,intersection,-97.0704186153224,36.122086409753585
+sidewalk,sidewalk_155,,sidewalk_155,0,intersection,-97.0701106115154,36.12252306737319
+sidewalk,sidewalk_155,,sidewalk_155,1,intersection,-97.07041232953041,36.12210671946417
+sidewalk,sidewalk_156,,sidewalk_156,0,intersection,-97.06997816449021,36.122492999235845
+sidewalk,sidewalk_156,,sidewalk_156,1,intersection,-97.06997184851824,36.1218399686593
+sidewalk,sidewalk_157,,sidewalk_157,0,intersection,-97.06940442104977,36.1225173024965
+sidewalk,sidewalk_157,,sidewalk_157,1,intersection,-97.06942354477572,36.121832467093434
+sidewalk,sidewalk_158,,sidewalk_158,0,intersection,-97.07113193096117,36.121822168771104
+sidewalk,sidewalk_158,,sidewalk_158,1,intersection,-97.06825699749236,36.121832467093434
+sidewalk,sidewalk_158,,sidewalk_158,2,intersection,-97.06777252976812,36.12179642295937
+sidewalk,sidewalk_159,,sidewalk_159,0,intersection,-97.06816137886257,36.12211567042812
+sidewalk,sidewalk_159,,sidewalk_159,1,intersection,-97.06815500428726,36.121832467093434
+sidewalk,sidewalk_160,,sidewalk_160,0,intersection,-97.0706112060735,36.12182745690488
+sidewalk,sidewalk_160,,sidewalk_160,1,intersection,-97.07062361113303,36.12154187562875
+sidewalk,sidewalk_160,,sidewalk_160,2,intersection,-97.07034449729368,36.12155690624813
+sidewalk,sidewalk_160,,sidewalk_160,3,intersection,-97.0701025986329,36.121551896041986
+sidewalk,sidewalk_160,,sidewalk_160,4,intersection,-97.06997824216698,36.12180804618048
+sidewalk,sidewalk_161,,sidewalk_161,0,intersection,-97.0703566227562,36.1218130567182
+sidewalk,sidewalk_161,,sidewalk_161,1,intersection,-97.0703566227562,36.121557518887215
+sidewalk,sidewalk_162,,sidewalk_162,0,intersection,-97.0700900413341,36.121552511073574
+sidewalk,sidewalk_162,,sidewalk_162,1,intersection,-97.06911670916496,36.121552511073574
+sidewalk,sidewalk_163,,sidewalk_163,0,intersection,-97.06934706807571,36.12164806386466
+sidewalk,sidewalk_163,,sidewalk_163,1,intersection,-97.06935329399222,36.12065229749086
+sidewalk,sidewalk_164,,sidewalk_164,0,intersection,-97.06954629740393,36.12153742378013
+sidewalk,sidewalk_164,,sidewalk_164,1,intersection,-97.06970837067583,36.12145685902548
+sidewalk,sidewalk_164,,sidewalk_164,2,intersection,-97.06985196895384,36.12152746419725
+sidewalk,sidewalk_165,,sidewalk_165,0,intersection,-97.06968369658385,36.12142174459478
+sidewalk,sidewalk_165,,sidewalk_165,1,intersection,-97.06968369658385,36.12124855335567
+sidewalk,sidewalk_165,,sidewalk_165,2,intersection,-97.06954496295941,36.1211670514639
+sidewalk,sidewalk_165,,sidewalk_165,3,intersection,-97.06948820829489,36.12105498622456
+sidewalk,sidewalk_165,,sidewalk_165,4,intersection,-97.06967739051002,36.12097857801512
+sidewalk,sidewalk_165,,sidewalk_165,5,intersection,-97.06982873628212,36.12099385966295
+sidewalk,sidewalk_165,,sidewalk_165,6,intersection,-97.06988549094667,36.12112120661259
+sidewalk,sidewalk_165,,sidewalk_165,7,intersection,-97.06981612413445,36.12124345948992
+sidewalk,sidewalk_165,,sidewalk_165,8,intersection,-97.06969630873154,36.12124855335567
+sidewalk,sidewalk_166,,sidewalk_166,0,intersection,-97.0695260447379,36.12117214533461
+sidewalk,sidewalk_166,,sidewalk_166,1,intersection,-97.06933252545643,36.12116206020638
+sidewalk,sidewalk_167,,sidewalk_167,0,intersection,-97.06987745141225,36.12116711970098
+sidewalk,sidewalk_167,,sidewalk_167,1,intersection,-97.06997793537357,36.121172192709956
+sidewalk,sidewalk_167,,sidewalk_167,2,intersection,-97.06996537487841,36.1210859515127
+sidewalk,sidewalk_167,,sidewalk_167,3,intersection,-97.0698598016007,36.1210859515127
+sidewalk,sidewalk_168,,sidewalk_168,0,intersection,-97.06997158507119,36.12113109933401
+sidewalk,sidewalk_168,,sidewalk_168,1,intersection,-97.07012062969851,36.12115116502404
+sidewalk,sidewalk_169,,sidewalk_169,0,intersection,-97.0701082093129,36.12155247774763
+sidewalk,sidewalk_169,,sidewalk_169,1,intersection,-97.07012062969851,36.119816785468366
+sidewalk,sidewalk_170,,sidewalk_170,0,intersection,-97.06934435559789,36.120654537688594
+sidewalk,sidewalk_170,,sidewalk_170,1,intersection,-97.06933191990929,36.119850912086854
+sidewalk,sidewalk_170,,sidewalk_170,2,intersection,-97.06940036301343,36.11984085983879
+sidewalk,sidewalk_170,,sidewalk_170,3,intersection,-97.06937547461193,36.11973028502511
+sidewalk,sidewalk_171,,sidewalk_171,0,intersection,-97.06932569780889,36.12051435761367
+sidewalk,sidewalk_171,,sidewalk_171,1,intersection,-97.06898970438846,36.120509331532276
+sidewalk,sidewalk_171,,sidewalk_171,2,intersection,-97.0690270369907,36.120715400605896
+sidewalk,sidewalk_172,,sidewalk_172,0,intersection,-97.06915770109867,36.120725452741986
+sidewalk,sidewalk_172,,sidewalk_172,1,intersection,-97.06915144827688,36.120270871887556
+sidewalk,sidewalk_172,,sidewalk_172,2,intersection,-97.06930743769053,36.12028095231441
+sidewalk,sidewalk_173,,sidewalk_173,0,intersection,-97.06913272954725,36.12028095231441
+sidewalk,sidewalk_173,,sidewalk_173,1,intersection,-97.06888314648543,36.12028599252736
+sidewalk,sidewalk_174,,sidewalk_174,0,intersection,-97.07011385754234,36.12029103894996
+sidewalk,sidewalk_174,,sidewalk_174,1,intersection,-97.07047600069704,36.12034651921727
+sidewalk,sidewalk_174,,sidewalk_174,2,intersection,-97.07071951074933,36.120427217717925
+sidewalk,sidewalk_174,,sidewalk_174,3,intersection,-97.07075072998683,36.120926537846394
+sidewalk,sidewalk_174,,sidewalk_174,4,intersection,-97.0705321953245,36.12112828245212
+sidewalk,sidewalk_174,,sidewalk_174,5,intersection,-97.0701383482755,36.12109798350929
+sidewalk,sidewalk_175,,sidewalk_175,0,intersection,-97.07013218167455,36.12110794593456
+sidewalk,sidewalk_175,,sidewalk_175,1,intersection,-97.07073374757655,36.12063203508422
+sidewalk,sidewalk_175,,sidewalk_175,2,intersection,-97.07010117312288,36.12065708309562
+sidewalk,sidewalk_175,,sidewalk_175,3,intersection,-97.06970553754499,36.120652089572324
+sidewalk,sidewalk_175,,sidewalk_175,4,intersection,-97.06938397364023,36.12064209910734
+sidewalk,sidewalk_176,,sidewalk_176,0,intersection,-97.06971044608942,36.1209655250959
+sidewalk,sidewalk_176,,sidewalk_176,1,intersection,-97.06970428623185,36.12064209910734
+sidewalk,sidewalk_177,,sidewalk_177,0,intersection,-97.07073914229721,36.12093567044508
+sidewalk,sidewalk_177,,sidewalk_177,1,intersection,-97.07177024733741,36.12093567044508
+sidewalk,sidewalk_177,,sidewalk_177,2,intersection,-97.07175782438512,36.12041385159338
+sidewalk,sidewalk_177,,sidewalk_177,3,intersection,-97.07075156524954,36.12064465651323
+sidewalk,sidewalk_178,,sidewalk_178,0,intersection,-97.07075156524952,36.120654679145595
+sidewalk,sidewalk_178,,sidewalk_178,1,intersection,-97.07174417844666,36.11981778493612
+sidewalk,sidewalk_178,,sidewalk_178,2,intersection,-97.07171320380411,36.11972270551985
+sidewalk,sidewalk_178,,sidewalk_178,3,intersection,-97.07135389795073,36.11975273061112
+sidewalk,sidewalk_178,,sidewalk_178,4,intersection,-97.07115566023852,36.119932880917524
+sidewalk,sidewalk_178,,sidewalk_178,5,intersection,-97.0711061448591,36.12008287242559
+sidewalk,sidewalk_178,,sidewalk_178,6,intersection,-97.07104425063481,36.12022286424126
+sidewalk,sidewalk_178,,sidewalk_178,7,intersection,-97.07114357989825,36.120293071041075
+sidewalk,sidewalk_179,,sidewalk_179,0,intersection,-97.07107529102964,36.12022787901476
+sidewalk,sidewalk_179,,sidewalk_179,1,intersection,-97.07086088713906,36.120272413976075
+sidewalk,sidewalk_179,,sidewalk_179,2,intersection,-97.07062810577216,36.120257568991775
+sidewalk,sidewalk_179,,sidewalk_179,3,intersection,-97.07053621839049,36.120198189026524
+sidewalk,sidewalk_179,,sidewalk_179,4,intersection,-97.07039067940056,36.12029126030898
+sidewalk,sidewalk_179,,sidewalk_179,5,intersection,-97.07045132064636,36.12035494059657
+sidewalk,sidewalk_180,,sidewalk_180,0,intersection,-97.07039067940056,36.12027656485067
+sidewalk,sidewalk_180,,sidewalk_180,1,intersection,-97.07011376372071,36.120086916681785
+sidewalk,sidewalk_181,,sidewalk_181,0,intersection,-97.07010774381463,36.119834051744036
+sidewalk,sidewalk_181,,sidewalk_181,1,intersection,-97.07024620165454,36.11977083538235
+sidewalk,sidewalk_181,,sidewalk_181,2,intersection,-97.0705893363013,36.11974165858287
+sidewalk,sidewalk_181,,sidewalk_181,3,intersection,-97.07099289072089,36.119775716808334
+sidewalk,sidewalk_181,,sidewalk_181,4,intersection,-97.07124586513314,36.12004818208017
+sidewalk,sidewalk_181,,sidewalk_181,5,intersection,-97.07139644514044,36.120028720306394
+sidewalk,sidewalk_181,,sidewalk_181,6,intersection,-97.07175783715795,36.120403358604186
+sidewalk,sidewalk_182,,sidewalk_182,0,intersection,-97.0714145147413,36.12048607071474
+sidewalk,sidewalk_182,,sidewalk_182,1,intersection,-97.07173976755706,36.120174683492124
+sidewalk,sidewalk_183,,sidewalk_183,0,intersection,-97.07176386035825,36.120408224024864
+sidewalk,sidewalk_183,,sidewalk_183,1,intersection,-97.07173374435678,36.11977085134846
+sidewalk,sidewalk_184,,sidewalk_184,0,intersection,-97.0713960987625,36.12003872599597
+sidewalk,sidewalk_184,,sidewalk_184,1,intersection,-97.07131161227201,36.119765738258835
+sidewalk,sidewalk_185,,sidewalk_185,0,intersection,-97.07116716413225,36.119911592208766
+sidewalk,sidewalk_185,,sidewalk_185,1,intersection,-97.07126320634806,36.119770975671
+sidewalk,sidewalk_186,,sidewalk_186,0,intersection,-97.07098108233909,36.119795219919624
+sidewalk,sidewalk_186,,sidewalk_186,1,intersection,-97.07128174849258,36.11977578999789
+sidewalk,sidewalk_187,,sidewalk_187,0,intersection,-97.06846203766013,36.122682131714605
+sidewalk,sidewalk_187,,sidewalk_187,1,intersection,-97.06846802430734,36.12216954015802
+sidewalk,sidewalk_188,,sidewalk_188,0,intersection,-97.06777955987903,36.122672460206786
+sidewalk,sidewalk_188,,sidewalk_188,1,intersection,-97.06773138741464,36.1207706312829
+sidewalk,sidewalk_188,,sidewalk_188,2,intersection,-97.06806298115703,36.12040050551099
+sidewalk,sidewalk_188,,sidewalk_188,3,intersection,-97.06805696495096,36.120740688758694
+sidewalk,sidewalk_189,,sidewalk_189,0,intersection,-97.06775642200917,36.12075039961965
+sidewalk,sidewalk_189,,sidewalk_189,1,intersection,-97.06764781123915,36.12033610275706
+sidewalk,sidewalk_190,,sidewalk_190,0,intersection,-97.06797364354917,36.12022399852432
+sidewalk,sidewalk_190,,sidewalk_190,1,intersection,-97.06758095475935,36.120272799567886
+sidewalk,sidewalk_190,,sidewalk_190,2,intersection,-97.06758095475935,36.120097115669104
+sidewalk,sidewalk_190,,sidewalk_190,3,intersection,-97.06736500722334,36.12011649775388
+sidewalk,sidewalk_191,,sidewalk_191,0,intersection,-97.06738300285134,36.12004381491128
+sidewalk,sidewalk_191,,sidewalk_191,1,intersection,-97.06717331221515,36.11994218403678
+sidewalk,sidewalk_191,,sidewalk_191,2,intersection,-97.06738899401232,36.1201260874276
+sidewalk,sidewalk_191,,sidewalk_191,3,intersection,-97.06737702643537,36.12005358336669
+sidewalk,sidewalk_192,,sidewalk_192,0,intersection,-97.06794548634129,36.12017442343102
+sidewalk,sidewalk_192,,sidewalk_192,1,intersection,-97.06795148816647,36.11987868459047
+sidewalk,sidewalk_192,,sidewalk_192,2,intersection,-97.06772961800917,36.11984962131856
+sidewalk,sidewalk_192,,sidewalk_192,3,intersection,-97.06758587933003,36.11996573128417
+sidewalk,sidewalk_192,,sidewalk_192,4,intersection,-97.06759781338754,36.12016335404658
+sidewalk,sidewalk_193,,sidewalk_193,0,intersection,-97.06795576174665,36.11987420909888
+sidewalk,sidewalk_193,,sidewalk_193,1,intersection,-97.06797952236978,36.11980703186949
+sidewalk,sidewalk_194,,sidewalk_194,0,intersection,-97.06795601875125,36.119821271291364
+sidewalk,sidewalk_194,,sidewalk_194,1,intersection,-97.06702174991482,36.11980228539496
+sidewalk,sidewalk_195,,sidewalk_195,0,intersection,-97.0675740849502,36.121686613229464
+sidewalk,sidewalk_195,,sidewalk_195,1,intersection,-97.06713926800745,36.12167712050737
+sidewalk,sidewalk_195,,sidewalk_195,2,intersection,-97.0661462401247,36.120566464099056
+sidewalk,sidewalk_195,,sidewalk_195,3,intersection,-97.0657869261635,36.120300008270966
+sidewalk,sidewalk_195,,sidewalk_195,4,intersection,-97.06563972668978,36.11982914325778
+sidewalk,sidewalk_195,,sidewalk_195,5,intersection,-97.06593422637704,36.11980535398399
+sidewalk,sidewalk_195,,sidewalk_195,6,intersection,-97.06674704551388,36.11978632255974
+sidewalk,sidewalk_195,,sidewalk_195,7,intersection,-97.06689429535751,36.120019457188775
+sidewalk,sidewalk_195,,sidewalk_195,8,intersection,-97.06747740473828,36.1203477476355
+sidewalk,sidewalk_195,,sidewalk_195,9,intersection,-97.06757164463822,36.12168468440711
+sidewalk,sidewalk_196,,sidewalk_196,0,intersection,-97.06620516608933,36.1216989576306
+sidewalk,sidewalk_196,,sidewalk_196,1,intersection,-97.0661344861644,36.12056184936122
+sidewalk,sidewalk_196,,sidewalk_196,2,intersection,-97.06634633747743,36.12064741377041
+sidewalk,sidewalk_196,,sidewalk_196,3,intersection,-97.06628748989046,36.12070445665808
+sidewalk,sidewalk_196,,sidewalk_196,4,intersection,-97.0661239740968,36.12069973936208
+sidewalk,sidewalk_196,,sidewalk_196,5,intersection,-97.06517207858364,36.12071389124922
+sidewalk,sidewalk_196,,sidewalk_196,6,intersection,-97.0651837582832,36.12170923424575
+sidewalk,sidewalk_196,,sidewalk_196,7,intersection,-97.06619000035342,36.121709234245735
+sidewalk,sidewalk_197,,sidewalk_197,0,intersection,-97.06620169044317,36.12171395567751
+sidewalk,sidewalk_197,,sidewalk_197,1,intersection,-97.06714858771261,36.121227646713685
+sidewalk,sidewalk_197,,sidewalk_197,2,intersection,-97.06710767239849,36.121137938905825
+sidewalk,sidewalk_197,,sidewalk_197,3,intersection,-97.0669089408728,36.12114266037195
+sidewalk,sidewalk_197,,sidewalk_197,4,intersection,-97.06672790552983,36.121043597649404
+sidewalk,sidewalk_197,,sidewalk_197,5,intersection,-97.06652970343345,36.120968255313436
+sidewalk,sidewalk_197,,sidewalk_197,6,intersection,-97.06617410555464,36.12097767310939
+sidewalk,sidewalk_198,,sidewalk_198,0,intersection,-97.06674476922294,36.12104822930249
+sidewalk,sidewalk_198,,sidewalk_198,1,intersection,-97.06671565372966,36.12068133640597
+sidewalk,sidewalk_199,,sidewalk_199,0,intersection,-97.06708250894499,36.12066252133942
+sidewalk,sidewalk_199,,sidewalk_199,1,intersection,-97.06635819428658,36.12064870043327
+sidewalk,sidewalk_200,,sidewalk_200,0,intersection,-97.06688224898792,36.12066250433182
+sidewalk,sidewalk_200,,sidewalk_200,1,intersection,-97.06688224898794,36.12050999505018
+sidewalk,sidewalk_200,,sidewalk_200,2,intersection,-97.06597406341498,36.1198179041124
+sidewalk,sidewalk_201,,sidewalk_201,0,intersection,-97.06518625798222,36.12070329491934
+sidewalk,sidewalk_201,,sidewalk_201,1,intersection,-97.06522682785283,36.11986527879126
+sidewalk,sidewalk_201,,sidewalk_201,2,intersection,-97.06562239368647,36.119794793679006
+sidewalk,sidewalk_202,,sidewalk_202,0,intersection,-97.06516324771589,36.123381564231785
+sidewalk,sidewalk_202,,sidewalk_202,1,intersection,-97.06516324771587,36.12184157027231
+sidewalk,sidewalk_202,,sidewalk_202,2,intersection,-97.06756532839957,36.12184157027231
+sidewalk,sidewalk_202,,sidewalk_202,3,intersection,-97.06757700974104,36.12223315422165
+sidewalk,sidewalk_202,,sidewalk_202,4,intersection,-97.06764143757226,36.12340173175232
+sidewalk,sidewalk_203,,sidewalk_203,0,intersection,-97.06686340512579,36.12339228129973
+sidewalk,sidewalk_203,,sidewalk_203,1,intersection,-97.06685752677251,36.12286047711992
+sidewalk,sidewalk_203,,sidewalk_203,2,intersection,-97.06675788141358,36.12277051876243
+sidewalk,sidewalk_203,,sidewalk_203,3,intersection,-97.06674032818286,36.122345155966045
+sidewalk,sidewalk_203,,sidewalk_203,4,intersection,-97.06705628633537,36.12224117804306
+sidewalk,sidewalk_203,,sidewalk_203,5,intersection,-97.0667703473558,36.12248157542458
+sidewalk,sidewalk_204,,sidewalk_204,0,intersection,-97.06685175414412,36.12230309183782
+sidewalk,sidewalk_204,,sidewalk_204,1,intersection,-97.06685175414412,36.12202152530258
+sidewalk,sidewalk_204,,sidewalk_204,2,intersection,-97.06707820471975,36.122026215519874
+sidewalk,sidewalk_204,,sidewalk_204,3,intersection,-97.06752410836644,36.12201218235201
+sidewalk,sidewalk_204,,sidewalk_204,4,intersection,-97.06756471721614,36.122021554450036
+sidewalk,sidewalk_205,,sidewalk_205,0,intersection,-97.06734399756371,36.12201686262753
+sidewalk,sidewalk_205,,sidewalk_205,1,intersection,-97.06736148130433,36.121837974560606
+sidewalk,sidewalk_206,,sidewalk_206,0,intersection,-97.0668441787967,36.12201169102827
+sidewalk,sidewalk_206,,sidewalk_206,1,intersection,-97.0668558881672,36.121836710401105
+sidewalk,sidewalk_207,,sidewalk_207,0,intersection,-97.06682661474093,36.12200696182725
+sidewalk,sidewalk_207,,sidewalk_207,1,intersection,-97.06659828201607,36.12184143961238
+sidewalk,sidewalk_208,,sidewalk_208,0,intersection,-97.06673293977687,36.12184616882336
+sidewalk,sidewalk_208,,sidewalk_208,1,intersection,-97.06666357647273,36.12190686716631
+sidewalk,sidewalk_208,,sidewalk_208,2,intersection,-97.06642658518352,36.121902198064674
+sidewalk,sidewalk_208,,sidewalk_208,3,intersection,-97.06620115444503,36.12204227099302
+sidewalk,sidewalk_208,,sidewalk_208,4,intersection,-97.06620115444505,36.1223085910377
+sidewalk,sidewalk_208,,sidewalk_208,5,intersection,-97.06592385297311,36.12230392451356
+sidewalk,sidewalk_208,,sidewalk_208,6,intersection,-97.06597018384183,36.12202792022962
+sidewalk,sidewalk_208,,sidewalk_208,7,intersection,-97.06617788994375,36.122032580711895
+sidewalk,sidewalk_208,,sidewalk_208,8,intersection,-97.06621827724135,36.1218554821911
+sidewalk,sidewalk_209,,sidewalk_209,0,intersection,-97.06597689641896,36.12201796452161
+sidewalk,sidewalk_209,,sidewalk_209,1,intersection,-97.06595379426355,36.1218920021596
+sidewalk,sidewalk_209,,sidewalk_209,2,intersection,-97.06595379426355,36.121849962928415
+sidewalk,sidewalk_210,,sidewalk_210,0,intersection,-97.06552009515207,36.12195272545381
+sidewalk,sidewalk_210,,sidewalk_210,1,intersection,-97.06515727990315,36.122110889583695
+sidewalk,sidewalk_211,,sidewalk_211,0,intersection,-97.06595805096019,36.12228772137016
+sidewalk,sidewalk_211,,sidewalk_211,1,intersection,-97.0657462911758,36.12229234437588
+sidewalk,sidewalk_211,,sidewalk_211,2,intersection,-97.0657634514976,36.12235241055608
+sidewalk,sidewalk_212,,sidewalk_212,0,intersection,-97.06661002737263,36.122578813437656
+sidewalk,sidewalk_212,,sidewalk_212,1,intersection,-97.0651724004722,36.122578813437656
+sidewalk,sidewalk_213,,sidewalk_213,0,intersection,-97.06774300943435,36.12432833501824
+sidewalk,sidewalk_213,,sidewalk_213,1,intersection,-97.06764041306779,36.12354105513189
+sidewalk,sidewalk_213,,sidewalk_213,2,intersection,-97.06693614748792,36.123545642784386
+sidewalk,sidewalk_213,,sidewalk_213,3,intersection,-97.06618811837372,36.12354109978586
+sidewalk,sidewalk_214,,sidewalk_214,0,intersection,-97.06705110234942,36.12413092886603
+sidewalk,sidewalk_214,,sidewalk_214,1,intersection,-97.0659391806884,36.12412646048057
+sidewalk,sidewalk_215,,sidewalk_215,0,intersection,-97.06627109760215,36.124166675940586
+sidewalk,sidewalk_215,,sidewalk_215,1,intersection,-97.06623252464894,36.124015341953786
+sidewalk,sidewalk_216,,sidewalk_216,0,intersection,-97.06689928569799,36.12420228389507
+sidewalk,sidewalk_216,,sidewalk_216,1,intersection,-97.06689375677496,36.12396112290356
+sidewalk,sidewalk_217,,sidewalk_217,0,intersection,-97.06504709648323,36.123644039731765
+sidewalk,sidewalk_217,,sidewalk_217,1,intersection,-97.0649641626378,36.123644039731765
+sidewalk,sidewalk_218,,sidewalk_218,0,intersection,-97.06495863371477,36.123666369574515
+sidewalk,sidewalk_218,,sidewalk_218,1,intersection,-97.06495863371477,36.12229530545212
+sidewalk,sidewalk_219,,sidewalk_219,0,intersection,-97.06501945186808,36.12228637335979
+sidewalk,sidewalk_219,,sidewalk_219,1,intersection,-97.06402283858768,36.12229957048957
+sidewalk,sidewalk_220,,sidewalk_220,0,intersection,-97.064963832739,36.12229957048957
+sidewalk,sidewalk_220,,sidewalk_220,1,intersection,-97.064963832739,36.12223366601861
+sidewalk,sidewalk_221,,sidewalk_221,0,intersection,-97.0650508610998,36.12208428234627
+sidewalk,sidewalk_221,,sidewalk_221,1,intersection,-97.0639728788475,36.12211053622767
+sidewalk,sidewalk_222,,sidewalk_222,0,intersection,-97.06495335516743,36.12212803881039
+sidewalk,sidewalk_222,,sidewalk_222,1,intersection,-97.06498585714488,36.121073501237035
+sidewalk,sidewalk_223,,sidewalk_223,0,intersection,-97.06498044681466,36.121012316742295
+sidewalk,sidewalk_223,,sidewalk_223,1,intersection,-97.06495879808826,36.12072377620898
+sidewalk,sidewalk_223,,sidewalk_223,2,intersection,-97.06465641990802,36.120706329488875
+sidewalk,sidewalk_224,,sidewalk_224,0,intersection,-97.0646131845974,36.120723791729496
+sidewalk,sidewalk_224,,sidewalk_224,1,intersection,-97.06400881000647,36.12071522682159
+sidewalk,sidewalk_225,,sidewalk_225,0,intersection,-97.06387627171898,36.120668119811356
+sidewalk,sidewalk_225,,sidewalk_225,1,intersection,-97.06290834495655,36.12069375486486
+sidewalk,sidewalk_225,,sidewalk_225,2,intersection,-97.06288718808744,36.122095125053995
+sidewalk,sidewalk_225,,sidewalk_225,3,intersection,-97.06386040406711,36.122116487210874
+sidewalk,sidewalk_226,,sidewalk_226,0,intersection,-97.06388156093624,36.12228311183509
+sidewalk,sidewalk_226,,sidewalk_226,1,intersection,-97.06289776652198,36.12228311183509
+sidewalk,sidewalk_226,,sidewalk_226,2,intersection,-97.06290834495654,36.123227311359
+sidewalk,sidewalk_226,,sidewalk_226,3,intersection,-97.06283958513188,36.12326149031431
+sidewalk,sidewalk_226,,sidewalk_226,4,intersection,-97.06283958513188,36.1236801813092
+sidewalk,sidewalk_226,,sidewalk_226,5,intersection,-97.06385107033704,36.1236801813092
+sidewalk,sidewalk_227,,sidewalk_227,0,intersection,-97.0649641638113,36.1236801813092
+sidewalk,sidewalk_227,,sidewalk_227,1,intersection,-97.06401421515623,36.1236801813092
+sidewalk,sidewalk_228,,sidewalk_228,0,intersection,-97.06493876665904,36.12518664888366
+sidewalk,sidewalk_228,,sidewalk_228,1,intersection,-97.06495488153422,36.12476144268554
+sidewalk,sidewalk_228,,sidewalk_228,2,intersection,-97.0649441382841,36.12466164906043
+sidewalk,sidewalk_228,,sidewalk_228,3,intersection,-97.06497099640936,36.12384160098888
+sidewalk,sidewalk_229,,sidewalk_229,0,intersection,-97.06453589478022,36.125321152405604
+sidewalk,sidewalk_229,,sidewalk_229,1,intersection,-97.0644821785297,36.12536020177204
+sidewalk,sidewalk_229,,sidewalk_229,2,intersection,-97.06284383288907,36.12535152413673
+sidewalk,sidewalk_229,,sidewalk_229,3,intersection,-97.0628384450725,36.12667884126293
+sidewalk,sidewalk_230,,sidewalk_230,0,intersection,-97.06455177072978,36.12674411857534
+sidewalk,sidewalk_230,,sidewalk_230,1,intersection,-97.06452489422033,36.126605183708065
+sidewalk,sidewalk_230,,sidewalk_230,2,intersection,-97.06444956271407,36.126583452819936
+sidewalk,sidewalk_230,,sidewalk_230,3,intersection,-97.06434759945847,36.12670915611414
+sidewalk,sidewalk_231,,sidewalk_231,0,intersection,-97.06453022233707,36.1266050332712
+sidewalk,sidewalk_231,,sidewalk_231,1,intersection,-97.06449765346167,36.125373006806726
+sidewalk,sidewalk_232,,sidewalk_232,0,intersection,-97.06496176752634,36.1205570553627
+sidewalk,sidewalk_232,,sidewalk_232,1,intersection,-97.06500506519856,36.11978323131388
+sidewalk,sidewalk_232,,sidewalk_232,2,intersection,-97.06416151101196,36.11981817549055
+sidewalk,sidewalk_233,,sidewalk_233,0,intersection,-97.06495196392073,36.120535410289314
+sidewalk,sidewalk_233,,sidewalk_233,1,intersection,-97.06416944465974,36.12055284759382
+sidewalk,sidewalk_233,,sidewalk_233,2,intersection,-97.06415865129061,36.119829196202424
+sidewalk,sidewalk_234,,sidewalk_234,0,intersection,-97.06388872472859,36.120535651946355
+sidewalk,sidewalk_234,,sidewalk_234,1,intersection,-97.062940077063,36.120535651946355
+sidewalk,sidewalk_235,,sidewalk_235,0,intersection,-97.06401996594705,36.12057883565679
+sidewalk,sidewalk_235,,sidewalk_235,1,intersection,-97.06382343216995,36.12055738218051
+sidewalk,sidewalk_236,,sidewalk_236,0,intersection,-97.0689963884855,36.12254024936709
+sidewalk,sidewalk_236,,sidewalk_236,1,intersection,-97.06898558434186,36.122145781928424
+sidewalk,sidewalk_236,,sidewalk_236,2,intersection,-97.0692286257292,36.12253491449419
+parking_access,parking_001,parking_001,parking_001_access_01,0,access,-97.07418040426263,36.126648513644895
+parking_access,parking_001,parking_001,parking_001_access_02,0,access,-97.07316849696534,36.125933343600344
+parking_access,parking_001,parking_001,parking_001_access_03,0,access,-97.07318656673849,36.12530087486658
+parking_access,parking_001,parking_001,parking_001_access_04,0,access,-97.07565610240455,36.125276549044294
+parking_access,parking_002,parking_002,parking_002_access_01,0,access,-97.07565007914683,36.126035511148494
+parking_access,parking_002,parking_002,parking_002_access_02,0,access,-97.07470442768447,36.12662905332176
+parking_access,parking_003,parking_003,parking_003_access_01,0,access,-97.07443940434469,36.12434729698859
+parking_access,parking_003,parking_003,parking_003_access_02,0,access,-97.07566212566226,36.12434243176564
+parking_access,parking_004,parking_004,parking_004_access_01,0,access,-97.07565007914683,36.12347641727597
+parking_access,parking_004,parking_004,parking_004_access_02,0,access,-97.07445747411785,36.12348614782891
+parking_access,parking_005,parking_005,parking_005_access_01,0,access,-97.07561996285821,36.123306132404075
+parking_access,parking_005,parking_005,parking_005_access_02,0,access,-97.07446849720597,36.123306132404075
+parking_access,parking_005,parking_005,parking_005_access_03,0,access,-97.07443232551009,36.12315517417953
+parking_access,parking_005,parking_005,parking_005_access_04,0,access,-97.07563912131114,36.123145426265275
+parking_access,parking_006,parking_006,parking_006_access_01,0,access,-97.07309881614997,36.12348172860736
+parking_access,parking_006,parking_006,parking_006_access_02,0,access,-97.07334017531018,36.12448575311553
+parking_access,parking_007,parking_007,parking_007_access_01,0,access,-97.07410045666482,36.123038199128665
+parking_access,parking_007,parking_007,parking_007_access_02,0,access,-97.0733703452052,36.123052821019556
+parking_access,parking_008,parking_008,parking_008_access_01,0,access,-97.07320742777205,36.12135178944315
+parking_access,parking_008,parking_008,parking_008_access_02,0,access,-97.07404011687477,36.12152725572318
+parking_access,parking_008,parking_008,parking_008_access_03,0,access,-97.07548797508167,36.12153212878213
+parking_access,parking_008,parking_008,parking_008_access_04,0,access,-97.07551210605179,36.122906319336465
+parking_access,parking_008,parking_008,parking_008_access_05,0,access,-97.07411250978514,36.12292093825561
+parking_access,parking_008,parking_008,parking_008_access_06,0,access,-97.07350923553224,36.122916065282865
+parking_access,parking_009,parking_009,parking_009_access_01,0,access,-97.07528264360198,36.12137112527007
+parking_access,parking_009,parking_009,parking_009_access_02,0,access,-97.07453212278065,36.12134179067192
+parking_access,parking_010,parking_010,parking_010_access_01,0,access,-97.07429607187719,36.120334629487296
+parking_access,parking_011,parking_011,parking_011_access_01,0,access,-97.0743323874008,36.11991904950498
+parking_access,parking_012,parking_012,parking_012_access_01,0,access,-97.07195977319147,36.12060353300959
+parking_access,parking_013,parking_013,parking_013_access_01,0,access,-97.07170556452617,36.12173291774606
+parking_access,parking_013,parking_013,parking_013_access_02,0,access,-97.07171161711345,36.12153735445256
+parking_access,parking_014,parking_014,parking_014_access_01,0,access,-97.07107609545022,36.12353207718964
+parking_access,parking_015,parking_015,parking_015_access_01,0,access,-97.06959926415666,36.12580541262832
+parking_access,parking_015,parking_015,parking_015_access_02,0,access,-97.06959926415666,36.125966743609204
+parking_access,parking_015,parking_015,parking_015_access_03,0,access,-97.07052531000878,36.12666584069491
+parking_access,parking_015,parking_015,parking_015_access_04,0,access,-97.0716995119389,36.12597652123375
+parking_access,parking_016,parking_016,parking_016_access_01,0,access,-97.06928273843481,36.126374632901225
+parking_access,parking_016,parking_016,parking_016_access_02,0,access,-97.0690205485216,36.125086092963066
+parking_access,parking_017,parking_017,parking_017_access_01,0,access,-97.06782039637105,36.12203835260347
+parking_access,parking_018,parking_018,parking_018_access_01,0,access,-97.06842025614876,36.119859626994646
+parking_access,parking_018,parking_018,parking_018_access_02,0,access,-97.06762202473172,36.12029926202691
+parking_access,parking_019,parking_019,parking_019_access_01,0,access,-97.06521782224195,36.12064978706708
+parking_access,parking_020,parking_020,parking_020_access_01,0,access,-97.06418307781246,36.12013235858902
+parking_access,parking_020,parking_020,parking_020_access_02,0,access,-97.06437121316327,36.12053761754664
+parking_access,parking_021,parking_021,parking_021_access_01,0,access,-97.06463087703087,36.12073290264731
+parking_access,parking_021,parking_021,parking_021_access_02,0,access,-97.06403991788396,36.12114516959806
+parking_access,parking_021,parking_021,parking_021_access_03,0,access,-97.06496963750246,36.121027939956114
+parking_access,parking_022,parking_022,parking_022_access_01,0,access,-97.06472927096694,36.122101317328934
+parking_access,parking_023,parking_023,parking_023_access_01,0,access,-97.06366254671013,36.122108650604346
+parking_access,parking_024,parking_024,parking_024_access_01,0,access,-97.06342196634581,36.12224798270722
+parking_access,parking_024,parking_024,parking_024_access_02,0,access,-97.062877256087,36.12243864728941
+parking_access,parking_025,parking_025,parking_025_access_01,0,access,-97.06399074309044,36.12257447934177
+parking_access,parking_025,parking_025,parking_025_access_02,0,access,-97.06495174103094,36.12268852597659
+parking_access,parking_026,parking_026,parking_026_access_01,0,access,-97.06593830985358,36.12334955236018
+parking_access,parking_026,parking_026,parking_026_access_02,0,access,-97.0664043639029,36.12336431530076
+parking_access,parking_026,parking_026,parking_026_access_03,0,access,-97.06668765165837,36.12334586162461
+parking_access,parking_026,parking_026,parking_026_access_04,0,access,-97.06523268028603,36.12236954841034
+parking_access,parking_026,parking_026,parking_026_access_05,0,access,-97.06527826572864,36.12250579001557
+parking_access,parking_027,parking_027,parking_027_access_01,0,access,-97.065319292627,36.124354233834666
+parking_access,parking_027,parking_027,parking_027_access_02,0,access,-97.0669694856497,36.124343187486936
+parking_access,parking_028,parking_028,parking_028_access_01,0,access,-97.06482241130246,36.123842418090504
+parking_access,parking_028,parking_028,parking_028_access_02,0,access,-97.06461271826642,36.123838735950756
+parking_access,parking_029,parking_029,parking_029_access_01,0,access,-97.0649956359844,36.124346869603016
+parking_access,parking_029,parking_029,parking_029_access_02,0,access,-97.06398363915832,36.12437632652547
+parking_access,parking_029,parking_029,parking_029_access_03,0,access,-97.06446304003009,36.12519872677908
+parking_access,parking_029,parking_029,parking_029_access_04,0,access,-97.06506114968914,36.1247119258758
+parking_access,parking_030,parking_030,parking_030_access_01,0,access,-97.06412780326272,36.12668707908582
+parking_access,parking_031,parking_031,parking_031_access_01,0,access,-97.06507201518326,36.12677181842598
+parking_access,parking_032,parking_032,parking_032_access_01,0,access,-97.07546103906034,36.11993912218126
+parking_access,parking_033,parking_033,parking_033_access_01,0,access,-97.06357133245592,36.125195285707726
+parking_access,parking_033,parking_033,parking_033_access_02,0,access,-97.06383219401286,36.12453480100104
+parking_access,parking_033,parking_033,parking_033_access_03,0,access,-97.0628439300375,36.125087906670515
