@@ -14,8 +14,9 @@ from settings import CAMPUS_BOUNDS_LONLAT, MAP_ZOOM
 
 
 ### Master mapping tool for the campus route solver
-#This combines the different map drawing scripts into one program
-#It can place roads, sidewalks, parking lot access points, and places/POIs
+#This combines the different map drawing scripts into one program.
+#It can place roads, sidewalks, parking lot access points, and places/POIs.
+#This file is mostly here to show how the master data csv was created and edited.
 
 
 BOUNDS_FILE = Path("data/picked_map_bounds.csv")
@@ -56,7 +57,7 @@ def get_basemap():
     basemap_extent = None
     last_error = None
 
-    #loop through tile sources until one works
+    #loop through tile sources until one works, cause we love loops
     for tile_source in tile_sources:
         try:
             basemap_image, basemap_extent = cx.bounds2img(
@@ -82,6 +83,7 @@ def get_basemap():
 
 
 #Function for writing the master csv header
+#The master csv stores all map objects in one common format
 def write_master_header():
 
     MASTER_FILE.parent.mkdir(exist_ok=True)
@@ -101,6 +103,7 @@ def write_master_header():
 
 
 #Function for appending a row to the master file
+#This gets used whenever a point or line is added from the map
 def append_master_row(feature_type, feature_id, feature_name, part_id, point_order, point_kind, lon, lat):
 
     if not MASTER_FILE.exists():
@@ -131,6 +134,7 @@ def load_master_data():
     with MASTER_FILE.open("r", newline="") as file:
         reader = csv.DictReader(file)
 
+        #loop through the csv rows, cause we love loops
         for row in reader:
             row["longitude"] = float(row["longitude"])
             row["latitude"] = float(row["latitude"])
@@ -141,10 +145,12 @@ def load_master_data():
 
 
 #Function for getting a new feature number
+#This just keeps new roads/sidewalks/points from using the same id
 def next_feature_id(data, feature_type):
 
     used_ids = set()
 
+    #loop through the data and collect ids that are already used
     for row in data:
         if row["feature_type"] == feature_type:
             used_ids.add(row["feature_id"])
@@ -153,10 +159,12 @@ def next_feature_id(data, feature_type):
 
 
 #Function for plotting line features
+#Same idea as map_viewer.py, just repeated here so this file can run on its own
 def plot_line_features(ax, data, feature_type, lonlat_to_web, color, linewidth, alpha, zorder):
 
     features = {}
 
+    #loop through rows and group the ones that belong together
     for row in data:
         if row["feature_type"] == feature_type:
             feature_id = row["feature_id"]
@@ -166,11 +174,13 @@ def plot_line_features(ax, data, feature_type, lonlat_to_web, color, linewidth, 
 
             features[feature_id].append(row)
 
+    #loop through each road or sidewalk line, cause we love loops
     for feature_id, points in features.items():
         points.sort(key=lambda point: point["point_order"])
         x_values = []
         y_values = []
 
+        #loop through the points for this line
         for point in points:
             x_coord, y_coord = lonlat_to_web.transform(point["longitude"], point["latitude"])
             x_values.append(x_coord)
@@ -189,6 +199,7 @@ def plot_line_features(ax, data, feature_type, lonlat_to_web, color, linewidth, 
 #Function for plotting point features
 def plot_point_features(ax, data, feature_type, lonlat_to_web, color, size, marker, zorder):
 
+    #loop through rows and plot only this point type
     for row in data:
         if row["feature_type"] == feature_type:
             x_coord, y_coord = lonlat_to_web.transform(row["longitude"], row["latitude"])
@@ -204,6 +215,7 @@ def plot_point_features(ax, data, feature_type, lonlat_to_web, color, size, mark
 
 
 #Main function
+#This opens the editable mapping window
 def main():
 
     if not MASTER_FILE.exists():
@@ -281,6 +293,7 @@ def main():
         current_points_web.clear()
         current_points_lonlat.clear()
 
+        #loop through unsaved points and remove them
         for artist in current_artists:
             artist.remove()
 
@@ -306,6 +319,8 @@ def main():
         mode = current_mode[0]
 
         #road and sidewalk modes are line based
+        #normal right click is an intersection point
+        #ctrl + right click is just a curve point
         if mode in ["Road", "Sidewalk"]:
             if event.key == "control":
                 point_kind = "curve"
@@ -390,6 +405,7 @@ def main():
             feature_type = "road" if mode == "Road" else "sidewalk"
             feature_id = next_feature_id(data, feature_type)
 
+            #loop through unsaved points and write them to the csv, cause we love loops
             for i, point in enumerate(current_points_lonlat):
                 append_master_row(feature_type, feature_id, "", feature_id, i, point[2], point[0], point[1])
 

@@ -2,11 +2,12 @@
 # Date: 5-3-26
 
 ### Settings for the campus route solver project
+#This is where I put values that I wanted to be easy to change while testing.
 
 #Campus map area in longitude and latitude
 #Format is west, south, east, north
 #This is the smaller campus chunk from Cleveland/Hall of Fame to Duck/University
-#These bounds were picked manually with bounds_picker.py
+#These bounds were picked manually from the campus map area
 CAMPUS_BOUNDS_LONLAT = (-97.07610187040834, 36.119189273754095, -97.06188887599457, 36.127479902794136)
 
 #Map tile zoom level

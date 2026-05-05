@@ -10,10 +10,7 @@ from pyproj import Transformer
 
 from settings import CAMPUS_BOUNDS_LONLAT, MAP_ZOOM
 
-
-### This file displays the campus map using the master map data file
-
-
+#This is not the route solver. It is just a clean way to check the map data and was mainly for looking at all the data I collected and how it lined up
 BOUNDS_FILE = Path("data/picked_map_bounds.csv")
 MASTER_FILE = Path("data/master_map_data.csv")
 
@@ -98,7 +95,7 @@ def get_basemap():
     basemap_extent = None
     last_error = None
 
-    #loop through tile sources until one works
+    #loop through tile sources until one works, cause we love loops
     for tile_source in tile_sources:
         try:
             basemap_image, basemap_extent = cx.bounds2img(
@@ -135,6 +132,7 @@ def load_master_data():
     with MASTER_FILE.open("r", newline="") as file:
         reader = csv.DictReader(file)
 
+        #loop through the csv rows, cause we love loops
         for row in reader:
             row["longitude"] = float(row["longitude"])
             row["latitude"] = float(row["latitude"])
@@ -145,11 +143,13 @@ def load_master_data():
 
 
 #Function for plotting line features like roads and sidewalks
+#The points are stored as separate csv rows, so this groups them before plotting
 def plot_line_features(ax, data, feature_type, lonlat_to_web, color, linewidth, alpha, zorder):
 
     #group all the points by feature id
     features = {}
 
+    #loop through the data and group the matching line type
     for row in data:
         if row["feature_type"] == feature_type:
             feature_id = row["feature_id"]
@@ -159,13 +159,14 @@ def plot_line_features(ax, data, feature_type, lonlat_to_web, color, linewidth, 
 
             features[feature_id].append(row)
 
-    #plot each feature after sorting the points by point order
+    #plot each feature after sorting the points by point order, cause we love loops
     for feature_id, points in features.items():
         points.sort(key=lambda point: point["point_order"])
 
         x_values = []
         y_values = []
 
+        #loop through the points for this one line
         for point in points:
             x_coord, y_coord = lonlat_to_web.transform(point["longitude"], point["latitude"])
             x_values.append(x_coord)
@@ -182,8 +183,10 @@ def plot_line_features(ax, data, feature_type, lonlat_to_web, color, linewidth, 
 
 
 #Function for plotting point features
+#This is used for buildings, POIs, parking, and intersections
 def plot_point_features(ax, data, feature_type, lonlat_to_web, color, size, marker, zorder, show_labels=False):
 
+    #loop through points and only plot the type that was asked for
     for row in data:
         if row["feature_type"] != feature_type:
             continue
@@ -216,6 +219,7 @@ def plot_point_features(ax, data, feature_type, lonlat_to_web, color, size, mark
 
 
 #Function for plotting the whole master map
+#This is helpful for checking that all of the hand collected data still looks right
 def plot_master_map(show_labels=True):
 
     #converts longitude/latitude into the map tile coordinate system
