@@ -1,5 +1,5 @@
 # Author: Landon Schultz
-# Date: 5-4-26
+# Date: 5-5-26
 
 import contextily as cx
 import matplotlib.pyplot as plt
@@ -18,18 +18,14 @@ from route_solver import (
 from settings import MAP_ZOOM, SPEEDS_MPH
 
 
-### Main user interface for the campus route solver
-#This is the file to run for the final project.
-#It opens the map, lets the user select two routes, and plots the results.
+#Main app file for the campus route solver
+#This is the one to actually run for the final project
 
 
-#Function for downloading the background map tiles
+#Function to download the background campus map tiles
 def get_basemap():
-
     west, south, east, north = load_map_bounds()
-
     print("Downloading map tiles. This may take a moment...")
-
     basemap_image, basemap_extent = cx.bounds2img(
         west,
         south,
@@ -41,39 +37,31 @@ def get_basemap():
         use_cache=False,
         n_connections=1,
     )
-
     return basemap_image, basemap_extent
 
 
-#Function for converting seconds to a nice string
+#Function to make seconds print nicer in the output
 def format_time(seconds):
-
     total_seconds = int(round(seconds))
     minutes = total_seconds // 60
     leftover_seconds = total_seconds % 60
-
     return f"{minutes} min {leftover_seconds} sec"
 
 
-#Function for converting meters to miles
+#meters to miles conversion for final outputs
 def meters_to_miles(distance_m):
-
     return distance_m / 1609.344
 
 
-#Function for formatting distance in miles
+#Function to make the distance output look better
 def format_distance(distance_m):
-
     return f"{meters_to_miles(distance_m):.3f} miles"
 
 
-#Function for plotting a solved route
-#This only plots the final path that Dijkstra returns
+#Function for plotting the path that dijkstra spits out
 def plot_route(ax, graph, path, color, label):
-
     x_values = []
     y_values = []
-
     #loop through the path and grab the coordinates, cause we love loops
     for node_id in path:
         node = graph["nodes"][node_id]
@@ -91,30 +79,23 @@ def plot_route(ax, graph, path, color, label):
     )
 
 
-#Function for printing location options
-#This is mostly helpful if I need to debug or check the real node ids
+#Function to print all the location options to terminal
+#This is mostly for checking ids if something gets weird
 def print_options(graph):
-
     print("----- Valid Start/End Locations -----")
-
     #loop through the locations so I can see the real ids
     for location_id, name in sorted(location_options(graph).items()):
         print(location_id, "-", name)
-
     print()
     print("----- Parking Lot Choices For Car Mode -----")
-
     #loop through parking choices too
     for parking_id in parking_options(graph):
         print(parking_id)
-
     print()
 
 
-#Function for drawing bigger labels on important points
-#These labels make the route selector and the map match better
+#Function to draw labels for buildings and parking lots
 def plot_big_labels(ax, graph):
-
     #loop through the important points and label them on the map
     for node_id, node in graph["nodes"].items():
         if node["type"] not in ["building", "poi", "parking"]:
@@ -141,13 +122,11 @@ def plot_big_labels(ax, graph):
         )
 
 
-#Function for making selector button groups
-#I used buttons instead of typing so the user cannot type a bad node id
+#Function for making the little selector button groups
+#I used buttons so the user cannot type some random bad node id
 def make_selector(fig, x, y, label, options, start_index=0, display_names=None):
-
     if display_names is None:
         display_names = {}
-
     state = {
         "index": start_index,
         "options": options,
@@ -198,29 +177,22 @@ def make_selector(fig, x, y, label, options, start_index=0, display_names=None):
     return get_value, [prev_button, next_button], label_text, value_text
 
 
-#Function for solving one route definition
-#This pulls the values from the UI selectors and sends them to the route solver
+#Function for solving one route from the selector values
 def solve_route_from_selectors(graph, route_selectors):
-
     mode = route_selectors["mode"]()
     optimize_by = route_selectors["optimize"]()
     start_id = route_selectors["start"]()
     end_id = route_selectors["end"]()
     car_parked_id = route_selectors["parking"]()
-
     result = solve_route(graph, start_id, end_id, mode, optimize_by, car_parked_id)
-
     if result is None:
         return None
-
     if mode == "car":
         path, cost, best_parking = result
     else:
         path, cost = result
         best_parking = ""
-
     distance_m = path_distance(graph, path)
-
     return {
         "mode": mode,
         "optimize_by": optimize_by,
@@ -234,13 +206,10 @@ def solve_route_from_selectors(graph, route_selectors):
     }
 
 
-#Function for making result text
-#This is the text shown in the small output area and printed to the terminal
+#Function for making the result text box and terminal output
 def route_summary(title, result):
-
     if result is None:
         return title + "\nNo route found."
-
     if result["optimize_by"] == "time":
         cost_text = format_time(result["cost"])
     else:
@@ -254,17 +223,14 @@ def route_summary(title, result):
         + "Cost: " + cost_text + "\n"
         + "Distance: " + format_distance(result["distance_m"])
     )
-
     if result["mode"] == "car":
         text += "\nParked at: " + result["parking"]
         text += "\nDestination lot: " + result["destination_parking"]
-
     return text
 
 
-#Main UI function
+#Main function for the UI
 def main():
-
     #build the graph one time when the app opens
     graph = build_campus_graph()
     data = load_master_data()
@@ -282,7 +248,6 @@ def main():
     location_names = location_options(graph)
     parking_ids = parking_options(graph)
     parking_names = {}
-
     #loop through parking ids to make the selector names
     for parking_id in parking_ids:
         parking_names[parking_id] = parking_id
@@ -309,7 +274,6 @@ def main():
     add_scroll_zoom(fig, map_ax)
 
     all_buttons = []
-
     route1 = {}
     route2 = {}
 
@@ -366,22 +330,18 @@ def main():
             line = route_lines.pop()
             line.remove()
 
-    #Function for drawing and reporting one route
+    #Function for drawing one route on the map
     def draw_result(result, color, label):
-
         before_lines = len(map_ax.lines)
         plot_route(map_ax, graph, result["path"], color, label)
         route_lines.extend(map_ax.lines[before_lines:])
 
     #Function for solving route 1
     def solve_one(event):
-
         clear_routes()
         result = solve_route_from_selectors(graph, route1)
-
         if result is not None:
             draw_result(result, "crimson", "Route 1")
-
         info_text.set_text(route_summary("Route 1", result))
         print(route_summary("Route 1", result))
         print()
@@ -389,35 +349,25 @@ def main():
 
     #Function for solving route 2
     def solve_two(event):
-
         clear_routes()
         result = solve_route_from_selectors(graph, route2)
-
         if result is not None:
             draw_result(result, "black", "Route 2")
-
         info_text.set_text(route_summary("Route 2", result))
         print(route_summary("Route 2", result))
         print()
         fig.canvas.draw_idle()
 
-    #Function for comparing both selected routes
-    #This is the comparison feature from the project proposal
+    #Function for comparing both selected routes, this is one of the main project features
     def compare_routes(event):
-
         clear_routes()
-
         result1 = solve_route_from_selectors(graph, route1)
         result2 = solve_route_from_selectors(graph, route2)
-
         if result1 is not None:
             draw_result(result1, "crimson", "Route 1")
-
         if result2 is not None:
             draw_result(result2, "black", "Route 2")
-
         lines = ["Route Comparison"]
-
         #loop through both routes and build the comparison text
         for title, result in [["Route 1", result1], ["Route 2", result2]]:
             if result is None:
@@ -436,14 +386,13 @@ def main():
                     + ", "
                     + format_distance(result["distance_m"])
                 )
-
         print("----- Route Comparison -----")
         #loop through the comparison lines for the terminal
         for line in lines:
             print(line)
 
         print()
-        #This also prints the interpolation and bisection pieces from numerical_methods.py
+        #print the interpolation and bisection bits from numerical_methods.py too
         print("----- Interpolation Error Analysis -----")
         #loop through the interpolation checks from the numerical methods file
         for row in interpolation_error_analysis():

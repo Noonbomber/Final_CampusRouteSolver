@@ -2,7 +2,6 @@ Campus Route Solver
 By: Landon Schultz
 Numerical Methods of Python Final Project
 
-
 ----- Project Description -----
 This project is a campus route optimizer for the Southeastern section of OSU campus. 
 The program models part of campous as a weighted network of roads, sidewalks, buildings
@@ -138,14 +137,3 @@ The UI allows two completely different routes to be compared.  This means you
 can compare walking vs driving, biking vs scooter, or even routes with different 
 start and end points.  This is also useful for seeing how optimizing by time 
 changes things compared to optimizing by distance.
-
------ Notes -----
---> Distances are calculated internally in meters because the map coordinates are 
-converted into a projected coordinate system.  The output shown to the user is 
-converted to miles since that is more readable for campus travel.
-
---> Time is displayed in minutes and seconds.
-
---> The map tile background is only used so the program has a nice visual campus map 
-to plot on top of.  The actual route solving does not come from the map tiles.  
-It comes from the hand collected nodes and paths in the master data file.

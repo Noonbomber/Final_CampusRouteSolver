@@ -1,5 +1,5 @@
 # Author: Landon Schultz
-# Date: 5-4-26
+# Date: 5-3-26
 
 import csv
 from pathlib import Path
@@ -13,10 +13,8 @@ from map_viewer import add_scroll_zoom
 from settings import CAMPUS_BOUNDS_LONLAT, MAP_ZOOM
 
 
-### Master mapping tool for the campus route solver
-#This combines the different map drawing scripts into one program.
-#It can place roads, sidewalks, parking lot access points, and places/POIs.
-#This file is mostly here to show how the master data csv was created and edited.
+#Main mapping tool for collecting and editing the map data
+#This is how I clicked in roads, sidewalks, parking, and places
 
 
 BOUNDS_FILE = Path("data/picked_map_bounds.csv")
@@ -25,14 +23,11 @@ MASTER_FILE = Path("data/master_map_data.csv")
 
 #Function for loading the exact map bounds
 def load_map_bounds():
-
     if not BOUNDS_FILE.exists():
         return CAMPUS_BOUNDS_LONLAT
-
     with BOUNDS_FILE.open("r", newline="") as file:
         reader = csv.DictReader(file)
         row = next(reader)
-
     return (
         float(row["west"]),
         float(row["south"]),
@@ -43,11 +38,8 @@ def load_map_bounds():
 
 #Function for downloading map tiles
 def get_basemap():
-
     west, south, east, north = load_map_bounds()
-
     print("Downloading map tiles. This may take a moment...")
-
     tile_sources = [
         cx.providers.OpenStreetMap.Mapnik,
         cx.providers.CartoDB.Positron,
@@ -56,7 +48,6 @@ def get_basemap():
     basemap_image = None
     basemap_extent = None
     last_error = None
-
     #loop through tile sources until one works, cause we love loops
     for tile_source in tile_sources:
         try:
@@ -75,19 +66,14 @@ def get_basemap():
         except Exception as error:
             last_error = error
             print("Tile source failed:", tile_source["name"])
-
     if basemap_image is None:
         raise RuntimeError("Could not download campus map tiles.") from last_error
-
     return basemap_image, basemap_extent
 
 
-#Function for writing the master csv header
-#The master csv stores all map objects in one common format
+#Function for writing the header for the master csv file
 def write_master_header():
-
     MASTER_FILE.parent.mkdir(exist_ok=True)
-
     with MASTER_FILE.open("w", newline="") as file:
         writer = csv.writer(file)
         writer.writerow([
@@ -102,13 +88,10 @@ def write_master_header():
         ])
 
 
-#Function for appending a row to the master file
-#This gets used whenever a point or line is added from the map
+#Function for adding one row to the master map file
 def append_master_row(feature_type, feature_id, feature_name, part_id, point_order, point_kind, lon, lat):
-
     if not MASTER_FILE.exists():
         write_master_header()
-
     with MASTER_FILE.open("a", newline="") as file:
         writer = csv.writer(file)
         writer.writerow([
@@ -125,45 +108,33 @@ def append_master_row(feature_type, feature_id, feature_name, part_id, point_ord
 
 #Function for loading the master data
 def load_master_data():
-
     if not MASTER_FILE.exists():
         write_master_header()
-
     data = []
-
     with MASTER_FILE.open("r", newline="") as file:
         reader = csv.DictReader(file)
-
         #loop through the csv rows, cause we love loops
         for row in reader:
             row["longitude"] = float(row["longitude"])
             row["latitude"] = float(row["latitude"])
             row["point_order"] = int(row["point_order"])
             data.append(row)
-
     return data
 
 
-#Function for getting a new feature number
-#This just keeps new roads/sidewalks/points from using the same id
+#Function for getting the next id for whatever I am placing
 def next_feature_id(data, feature_type):
-
     used_ids = set()
-
     #loop through the data and collect ids that are already used
     for row in data:
         if row["feature_type"] == feature_type:
             used_ids.add(row["feature_id"])
-
     return feature_type + "_" + str(len(used_ids) + 1).zfill(3)
 
 
-#Function for plotting line features
-#Same idea as map_viewer.py, just repeated here so this file can run on its own
+#Function for plotting road or sidewalk lines
 def plot_line_features(ax, data, feature_type, lonlat_to_web, color, linewidth, alpha, zorder):
-
     features = {}
-
     #loop through rows and group the ones that belong together
     for row in data:
         if row["feature_type"] == feature_type:
@@ -173,13 +144,11 @@ def plot_line_features(ax, data, feature_type, lonlat_to_web, color, linewidth, 
                 features[feature_id] = []
 
             features[feature_id].append(row)
-
     #loop through each road or sidewalk line, cause we love loops
     for feature_id, points in features.items():
         points.sort(key=lambda point: point["point_order"])
         x_values = []
         y_values = []
-
         #loop through the points for this line
         for point in points:
             x_coord, y_coord = lonlat_to_web.transform(point["longitude"], point["latitude"])
@@ -198,7 +167,6 @@ def plot_line_features(ax, data, feature_type, lonlat_to_web, color, linewidth, 
 
 #Function for plotting point features
 def plot_point_features(ax, data, feature_type, lonlat_to_web, color, size, marker, zorder):
-
     #loop through rows and plot only this point type
     for row in data:
         if row["feature_type"] == feature_type:
@@ -214,13 +182,10 @@ def plot_point_features(ax, data, feature_type, lonlat_to_web, color, size, mark
             )
 
 
-#Main function
-#This opens the editable mapping window
+#Main function for the mapping window
 def main():
-
     if not MASTER_FILE.exists():
         write_master_header()
-
     data = load_master_data()
 
     lonlat_to_web = Transformer.from_crs("EPSG:4326", "EPSG:3857", always_xy=True)
@@ -275,49 +240,37 @@ def main():
 
     #Function for redrawing the current unsaved line
     def redraw_current_line(color):
-
         if current_line[0] is not None:
             current_line[0].remove()
             current_line[0] = None
-
         if len(current_points_web) >= 2:
             x_values = [point[0] for point in current_points_web]
             y_values = [point[1] for point in current_points_web]
             current_line[0], = map_ax.plot(x_values, y_values, color=color, linewidth=3, zorder=10)
-
         fig.canvas.draw_idle()
 
     #Function for clearing the current unsaved points
     def clear_current_points():
-
         current_points_web.clear()
         current_points_lonlat.clear()
-
         #loop through unsaved points and remove them
         for artist in current_artists:
             artist.remove()
-
         current_artists.clear()
-
         if current_line[0] is not None:
             current_line[0].remove()
             current_line[0] = None
-
         fig.canvas.draw_idle()
 
     #Function for clicking on the map
     def on_click(event):
-
         if event.inaxes != map_ax or event.xdata is None or event.ydata is None:
             return
-
         #right click places points so left click can be used for panning
         if event.button != 3:
             return
-
         lon, lat = web_to_lonlat.transform(event.xdata, event.ydata)
         mode = current_mode[0]
-
         #road and sidewalk modes are line based
         #normal right click is an intersection point
         #ctrl + right click is just a curve point
@@ -331,9 +284,7 @@ def main():
 
             current_points_web.append([event.xdata, event.ydata])
             current_points_lonlat.append([lon, lat, point_kind])
-
             color = "dodgerblue" if mode == "Road" else "limegreen"
-
             point = map_ax.scatter(
                 event.xdata,
                 event.ydata,
@@ -362,7 +313,6 @@ def main():
                 "latitude": lat,
             }
             data.append(row)
-
             map_ax.scatter(event.xdata, event.ydata, s=50, color="gold", marker="s", edgecolor="white", zorder=11)
             print("Saved parking access:", feature_id, lon, lat)
             fig.canvas.draw_idle()
@@ -383,28 +333,22 @@ def main():
                 "latitude": lat,
             }
             data.append(row)
-
             map_ax.scatter(event.xdata, event.ydata, s=50, color="purple", edgecolor="white", zorder=11)
             print("Saved POI:", feature_id, lon, lat)
             fig.canvas.draw_idle()
 
     #Function for keyboard controls
     def on_key(event):
-
         mode = current_mode[0]
-
         #enter saves current road or sidewalk line
         if event.key == "enter":
             if mode not in ["Road", "Sidewalk"]:
                 return
-
             if len(current_points_lonlat) < 2:
                 print("Need at least two points before saving a line.")
                 return
-
             feature_type = "road" if mode == "Road" else "sidewalk"
             feature_id = next_feature_id(data, feature_type)
-
             #loop through unsaved points and write them to the csv, cause we love loops
             for i, point in enumerate(current_points_lonlat):
                 append_master_row(feature_type, feature_id, "", feature_id, i, point[2], point[0], point[1])
@@ -419,7 +363,6 @@ def main():
                     "longitude": point[0],
                     "latitude": point[1],
                 })
-
             color = "dodgerblue" if mode == "Road" else "limegreen"
             x_values = [point[0] for point in current_points_web]
             y_values = [point[1] for point in current_points_web]
@@ -433,12 +376,10 @@ def main():
             if len(current_points_lonlat) == 0:
                 print("No current points to remove.")
                 return
-
             current_points_lonlat.pop()
             current_points_web.pop()
             artist = current_artists.pop()
             artist.remove()
-
             color = "dodgerblue" if mode == "Road" else "limegreen"
             redraw_current_line(color)
             print("Removed last unsaved point.")
